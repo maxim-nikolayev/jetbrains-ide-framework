@@ -1,0 +1,739 @@
+2024-12-29 11:50:47,459 [      2]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2024-12-29 11:50:47,481 [     24]   INFO - #c.i.p.i.b.AppStarter - JNA library (64-bit) loaded in 8 ms
+2024-12-29 11:50:47,483 [     26]   INFO - #c.i.p.i.b.AppStarter - IDE: WebStorm (build #WS-243.23654.44, Mon, 23 Dec 2024 19:58:00 GMT)
+2024-12-29 11:50:47,484 [     27]   INFO - #c.i.p.i.b.AppStarter - OS: Windows (11.0)
+2024-12-29 11:50:47,484 [     27]   INFO - #c.i.p.i.b.AppStarter - JRE: 21.0.5+8-b631.30, amd64 (JetBrains s.r.o.)
+2024-12-29 11:50:47,484 [     27]   INFO - #c.i.p.i.b.AppStarter - JVM: 21.0.5+8-b631.30 (OpenJDK 64-Bit Server VM)
+2024-12-29 11:50:47,486 [     29]   INFO - #c.i.p.i.b.AppStarter - PID: 22796
+2024-12-29 11:50:47,487 [     30]   INFO - #c.i.p.i.b.AppStarter - JVM options: [abort, vfprintf, -XX:ErrorFile=C:\Users\thund\java_error_in_webstorm_%p.log, -XX:HeapDumpPath=C:\Users\thund\java_error_in_webstorm.hprof, -Xms128m, -Xmx2048m, -XX:ReservedCodeCacheSize=512m, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:CICompilerCount=2, -XX:+IgnoreUnrecognizedVMOptions, -ea, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -Djbr.catch.SIGABRT=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.attach.allowAttachSelf=true, -Djdk.module.illegalAccess.silent=true, -Djdk.nio.maxCachedBufferSize=2097152, -Djava.util.zip.use.nio.for.zip.file.access=true, -Dkotlinx.coroutines.debug=off, -XX:+UnlockDiagnosticVMOptions, -XX:TieredOldPercentage=100000, -Denable.non.commercial.ai.license=true, -Dwsl.use.remote.agent.for.nio.filesystem=true, -Djava.nio.file.spi.DefaultFileSystemProvider=com.intellij.platform.core.nio.fs.MultiRoutingFileSystemProvider, -Djava.security.manager=com.intellij.platform.core.nio.fs.CoreBootstrapSecurityManager, -Dij.load.shell.env=false, -Dide.instant.shutdown=false, -Dfeature.usage.event.log.send.on.ide.close=false, -Dlinux.native.menu.force.disable=true, -Djdk.gtk.verbose=true, -Dvcs.log.index.enable=false, -Dide.slow.operations.assertion=false, -DintegrationTests.profiler=async, -Didea.config.path=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\config, -Didea.system.path=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\system, -Didea.plugins.path=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\plugins, -Didea.local.statistics.without.report=true, -Didea.updates.url=http://127.0.0.1, -Dkotest.assertions.collection.enumerate.size=2147483647, -Djb.consents.confirmation.enabled=false, -Djb.privacy.policy.text=<!--999.999-->, -Djb.privacy.policy.ai.assistant.text=<!--999.999-->, -Dwriterside.eula.reviewed.and.accepted=true, -Dide.newUsersOnboarding=false, -Dfreeze.reporter.profiling=false, -Didea.fatal.error.notification=true, -Didea.is.integration.test=true, -Dide.performance.screenshot=heartbeat, -XX:ErrorFile=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\log\jvm-crash\java_error_in_idea_%p.log, -XX:HeapDumpPath=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\log\heap-dump\heap-dump.hprof, -Xlog:gc*:file=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\reports\gcLog.log, -Didea.diagnostic.opentelemetry.metrics.max-files-to-keep=120, -Dfull.scanning.on.startup.can.be.skipped=false, -Dsnapshots.path=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\snapshots, -Djava.rmi.server.hostname=127.0.0.1, -Dcom.sun.management.jmxremote.host=127.0.0.1, -Dcom.sun.management.jmxremote=true, -Dcom.sun.management.jmxremote.port=7777, -Dcom.sun.management.jmxremote.authenticate=false, -Dcom.sun.management.jmxremote.ssl=false, -Dcom.sun.management.jmxremote.serial.filter.pattern='java.**;javax.**;com.intellij.driver.model.**', -Dexpose.ui.hierarchy.url=true, -Dmemory.snapshots.path=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\log, -Didea.diagnostic.opentelemetry.file=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\log\opentelemetry.json, -Didea.log.path=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\log, -Dtestscript.filename=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\system\exampleParametrizedTest.text, -Dtestscript.must.exist.process.with.non.success.code.on.ide.error=true, -Djb.vmOptionsFile=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\cache\builds\WS-243.23654.44.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.vendor.name=JetBrains, -Didea.paths.selector=WebStorm2024.3, -Djna.boot.library.path=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\cache\builds\WS-243.23654.44/lib/jna/amd64, -Dpty4j.preferred.native.folder=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\cache\builds\WS-243.23654.44/lib/pty4j, -Djna.nosys=true, -Djna.noclasspath=true, -Dintellij.platform.runtime.repository.path=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\cache\builds\WS-243.23654.44/modules/module-descriptors.jar, -Didea.platform.prefix=WebStorm, -Dsplash=true, -Daether.connector.resumeDownloads=false, -Dcompose.swing.render.on.graphics=true, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.windows=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.management/sun.management=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED, -Dide.native.launcher=true, -Djcef.sandbox.ptr=00000233DFE91920, -Djcef.sandbox.cefVersion=122.1.9+gd14e051+chromium-122.0.6261.94]
+2024-12-29 11:50:47,489 [     32]   INFO - #c.i.p.i.b.AppStarter - args: C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\cache\projects\unpacked\anything-llm
+2024-12-29 11:50:47,489 [     32]   INFO - #c.i.p.i.b.AppStarter - library path: C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\cache\builds\WS-243.23654.44\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin;C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git LFS;C:\butler;C:\Program Files\Git\cmd;C:\Users\thund\AppData\Local\Microsoft\WindowsApps;C:\Users\thund\.dotnet\tools;C:\Users\thund\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin;;C:\Program Files\JetBrains\JetBrains Rider 2024.2.7\bin;;;.
+2024-12-29 11:50:47,489 [     32]   INFO - #c.i.p.i.b.AppStarter - boot library path: C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\cache\builds\WS-243.23654.44\jbr\bin
+2024-12-29 11:50:47,493 [     36]   INFO - #c.i.p.i.b.AppStarter - locale=en_GB JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\config
+    idea.system.path=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\system
+    idea.plugins.path=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\plugins
+    idea.log.path=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\log
+2024-12-29 11:50:47,497 [     40]   INFO - #c.i.p.i.b.AppStarter - CPU cores: 16; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@285a7c73[Running, parallelism = 15, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@5413f75c
+2024-12-29 11:50:47,510 [     53]   INFO - #c.i.u.s.JBUIScale - System scale factor: 1.0 (JRE-managed HiDPI)
+2024-12-29 11:50:47,514 [     57]   INFO - #c.i.u.s.JBUIScale - Computed user scale factor: 1.0 (JRE-managed HiDPI)
+2024-12-29 11:50:47,707 [    250]   INFO - #c.i.p.i.b.AppStarter - Importing configs to C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\config
+2024-12-29 11:50:47,708 [    251]   INFO - #c.i.p.i.b.AppStarter - Custom migration option: properties intellij.first.ide.session
+2024-12-29 11:50:47,708 [    251]   INFO - #c.i.p.i.b.AppStarter - Enabling system properties after restart: [intellij.first.ide.session]
+2024-12-29 11:50:47,838 [    381]   INFO - #c.i.i.p.PluginManager - Module intellij.groovy.dev is not enabled because dependency org.intellij.groovy is not available
+Module intellij.kotlin.dev is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.java.dev is not enabled because dependency com.intellij.java is not available
+Module intellij.sh.python is not enabled because dependency com.intellij.modules.python is not available
+Module intellij.webDeployment/phpStorm is not enabled because dependency com.intellij.modules.phpstorm is not available
+Module intellij.diagram.properties is not enabled because dependency com.intellij.properties is not available
+Module intellij.diagram.java is not enabled because dependency com.intellij.java is not available
+Module intellij.featuresTrainer.onboarding is not enabled because dependency intellij.platform.ide.newUsersOnboarding is not available
+Module intellij.searchEverywhereMl.ranking.java is not enabled because dependency com.intellij.java is not available
+Module intellij.llmInstaller.newUsersOnboarding is not enabled because dependency intellij.platform.ide.newUsersOnboarding is not available
+Module intellij.ml.inline.completion.rider is not enabled because dependency com.intellij.modules.rider.cpp.core is not available
+Module intellij.fullLine.rider is not enabled because dependency intellij.ml.inline.completion.rider is not available
+Module intellij.fullLine.rider.csharp is not enabled because dependency intellij.fullLine.rider is not available
+Module intellij.ml.inline.completion.rider.csharp is not enabled because dependency intellij.ml.inline.completion.rider is not available
+Module intellij.ml.inline.completion.rider.cpp is not enabled because dependency intellij.ml.inline.completion.rider is not available
+Module intellij.fullLine.rider.cpp is not enabled because dependency intellij.fullLine.rider is not available
+Module intellij.ml.inline.completion.terraform is not enabled because dependency org.intellij.plugins.hcl is not available
+Module intellij.fullLine.terraform is not enabled because dependency intellij.ml.inline.completion.terraform is not available
+Module intellij.ml.inline.completion.ruby is not enabled because dependency org.jetbrains.plugins.ruby is not available
+Module intellij.fullLine.ruby is not enabled because dependency intellij.ml.inline.completion.ruby is not available
+Module intellij.ml.inline.completion.python is not enabled because dependency com.intellij.modules.python is not available
+Module intellij.fullLine.python is not enabled because dependency intellij.ml.inline.completion.python is not available
+Module intellij.ml.inline.completion.python.jupyter is not enabled because dependency intellij.notebooks.core is not available
+Module intellij.fullLine.python.jupyter is not enabled because dependency intellij.notebooks.core is not available
+Module intellij.ml.inline.completion.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.fullLine.php is not enabled because dependency intellij.ml.inline.completion.php is not available
+Module intellij.ml.inline.completion.kotlin is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.fullLine.kotlin is not enabled because dependency intellij.ml.inline.completion.kotlin is not available
+Module intellij.ml.inline.completion.java is not enabled because dependency intellij.jvm.analysis.impl is not available
+Module intellij.fullLine.java is not enabled because dependency intellij.ml.inline.completion.java is not available
+Module intellij.ml.inline.completion.go is not enabled because dependency org.jetbrains.plugins.go is not available
+Module intellij.fullLine.go is not enabled because dependency intellij.ml.inline.completion.go is not available
+Module intellij.ml.inline.completion.cpp is not enabled because dependency com.intellij.modules.clion is not available
+Module intellij.fullLine.cpp is not enabled because dependency intellij.ml.inline.completion.cpp is not available
+Module intellij.markdown.frontmatter.toml is not enabled because dependency org.toml.lang is not available
+Module intellij.swagger.maven is not enabled because dependency org.jetbrains.idea.maven is not available
+Module intellij.swagger.java is not enabled because dependency com.intellij.java is not available
+Module intellij.httpClient.injection.graphql is not enabled because dependency com.intellij.lang.jsgraphql is not available
+Module intellij.indexing.shared.ultimate.java is not enabled because dependency com.intellij.java is not available
+Module intellij.clouds.docker.java is not enabled because dependency com.intellij.java is not available
+Module intellij.grazie.properties is not enabled because dependency com.intellij.properties is not available
+Module intellij.grazie.java is not enabled because dependency com.intellij.java is not available
+Module intellij.llmInstaller.pycharm.community is not enabled because dependency intellij.pycharm.community.ide.impl.promotion is not available
+Module intellij.vcs.github.ultimate/cron is not enabled because dependency com.intellij.cron is not available
+Module intellij.javascript.debugger.javaee/jsp is not enabled because dependency com.intellij.jsp is not available
+Module intellij.javascript.debugger.javaee is not enabled because dependency com.intellij.javaee is not available
+Module intellij.javascript.debugger.nashorn is not enabled because dependency com.intellij.java is not available
+Module intellij.javascript.java is not enabled because dependency com.intellij.modules.java is not available
+Module intellij.javascript.devkit is not enabled because dependency intellij.devkit.core is not available
+Module intellij.ml.inline.completion.js.svelte is not enabled because dependency dev.blachut.svelte.lang is not available
+Module intellij.fullLine.js.svelte is not enabled because dependency intellij.ml.inline.completion.js.svelte is not available
+Module intellij.ml.inline.completion.js.astro is not enabled because dependency org.jetbrains.plugins.astro is not available
+Module intellij.fullLine.js.astro is not enabled because dependency intellij.ml.inline.completion.js.astro is not available
+Module intellij.restClient/intelliLangInJs is not enabled because dependency XPathView is not available
+Module intellij.qodana.jvm.maven is not enabled because dependency org.jetbrains.idea.maven is not available
+Module intellij.qodana.jvm.java is not enabled because dependency com.intellij.java is not available
+Module intellij.qodana.jvm.kotlin is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.qodana.jvm.groovy is not enabled because dependency org.intellij.groovy is not available
+Module intellij.qodana.jvm.gradle is not enabled because dependency intellij.qodana.jvm.java is not available
+Module intellij.qodana.jvm.dev is not enabled because dependency intellij.java.dev is not available
+Module intellij.qodana.inspectionKts.kotlin is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.qodana.jvm.coverage is not enabled because dependency com.intellij.java is not available
+Module intellij.qodana.python is not enabled because dependency intellij.python is not available
+Module intellij.qodana.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.qodana.go is not enabled because dependency intellij.go.coverage is not available
+Module intellij.execution.process.elevation.backend.split is not enabled because dependency intellij.execution.process.elevation is not available
+Module intellij.java.backend.split is not enabled because dependency com.intellij.java is not available
+Module intellij.notebooks.backend.split is not enabled because dependency Pythonid is not available
+Module intellij.packageChecker.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.packageChecker.python is not enabled because dependency com.intellij.modules.python is not available
+Module intellij.packageChecker.java is not enabled because dependency com.intellij.java is not available
+Module intellij.packageChecker.maven is not enabled because dependency intellij.packageChecker.java is not available
+Module intellij.packageChecker.gradle is not enabled because dependency intellij.packageChecker.maven is not available
+Module intellij.packageChecker.go is not enabled because dependency org.jetbrains.plugins.go is not available
+Module intellij.packageChecker.amper is not enabled because dependency intellij.packageChecker.java is not available
+2024-12-29 11:50:47,855 [    398]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: IDEA CORE (243.23654.44), Japanese Language Pack / 日本語言語パック (243.23654.44), EditorConfig (243.23654.44), IDE Services / Provisioner API (243.23654.44), WarmNeon Color Scheme (243.23654.44), com.intellij.dev (243.23654.44), Chinese (Simplified) Language Pack / 中文语言包 (243.23654.44), Shell Script (243.23654.44), Data Editor Support Core (243.23654.44), Task Management (243.23654.44), Mercurial (243.23654.44), FTP/SFTP/WebDAV Connectivity (243.23654.44), Diagrams (243.23654.44), IDE Features Trainer (243.23654.44), Refactor-X (243.23654.44), WebP Support (243.23654.44), Performance Testing (243.23654.44), Twilight Color Scheme (243.23654.44), VibrantInk Color Scheme (243.23654.44), Korean Language Pack / 한국어 언어 팩 (243.23654.44), Charts Support (243.23654.44), Subversion (243.23654.44), File Watchers (243.23654.44), TextMate Bundles (243.23654.44), Images (243.23654.44), HTML Tools (243.23654.44), Copyright (243.23654.44), CSS (243.23654.44), Less (243.23654.44), PostCSS (243.23654.44), JSON (243.23654.44), Machine Learning in Search Everywhere (243.23654.44), YAML (243.23654.44), JSONPath (243.23654.44), Configuration Script (243.23654.44), Monokai Color Scheme (243.23654.44), Sass (243.23654.44), Markdown (243.23654.44), Railscasts Color Scheme (243.23654.44), SSH Remote Run (243.23654.44), Vagrant (243.23654.44), Terminal (243.23654.44), NetBeans Keymap (243.23654.44), Full Line Code Completion (243.23654.44), ML Inline Completion - Core Pipeline (243.23654.44), Remote Development Server (243.23654.44), Remote Execution Agent (243.23654.44), Station (243.23654.44), GitHub Color Scheme (243.23654.44), Time Tracking (243.23654.44), IntelliLang (243.23654.44), Visual Studio Keymap (243.23654.44), Machine Learning Code Completion (243.23654.44), OpenAPI Specifications (243.23654.44), HTTP Client (243.23654.44), Shared Indexes (243.23654.44), Shared Project Indexes (243.23654.44), Cobalt Color Scheme (243.23654.44), Data Editor Support (243.23654.44), VSCode Keymap (243.23654.44), Gherkin (243.23654.44), All Hallow's Eve Color Scheme (243.23654.44), Docker (243.23654.44), Grazie Lite (243.23654.44), Eclipse Keymap (243.23654.44), GitLab (243.23654.44), Backup and Sync (243.23654.44), GitHub (243.23654.44-ultimate), Git (243.23654.44), Webpack (243.23654.44), JavaScript Debugger (243.23654.44), JavaScript and TypeScript (243.23654.44), Tailwind CSS (243.23654.44), Database Tools and SQL (243.23654.44), React (243.23654.44), Stylelint (243.23654.44), Vite (243.23654.44), Cucumber.js (243.23654.44), Node.js (243.23654.44), Bun (243.23654.44), Handlebars/Mustache (243.23654.44), Vue.js (243.23654.44), TSLint (243.23654.44), Node.js Remote Interpreter (243.23654.44), Styled Components & Styled JSX (243.23654.44), EJS (243.23654.44), Polymer & Web Components (243.23654.44), Prettier (243.23654.44), Next.js (243.23654.44), Karma (243.23654.44), JavaScript Intention Power Pack (243.23654.44), Qodana (243.23654.44), Blackboard Color Scheme (243.23654.44), Code With Me (243.23654.44), Package Checker (243.23654.44), Endpoints (243.23654.44), Remote Development Gateway (243.23654.44), Terminal for Gateway (243.23654.44), Dev Containers (243.23654.44), Async Profiler for IDE Performance Testing (243.23654.44), Angular (243.23654.44), Live Edit (243.23654.44), Pug (ex-Jade) (243.23654.44)
+2024-12-29 11:50:47,917 [    460]   INFO - c.i.p.i.IdeFingerprint - Calculated dependencies fingerprint in 6 ms (hash=1t8hhb8hwb7wv, buildTime=1734983880, appVersion=WS-243.23654.44)
+2024-12-29 11:50:47,962 [    505]   INFO - #c.i.c.d.g.i.DevcontainerPluginManager - Started
+2024-12-29 11:50:47,963 [    506]   INFO - #c.i.c.d.g.i.DevcontainerPluginManager - Options path: C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\config\options
+2024-12-29 11:50:48,025 [    568]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+2024-12-29 11:50:48,025 [    568]   INFO - #c.i.u.i.PageCacheUtils - 	DEFAULT_PAGE_SIZE: 10485760
+2024-12-29 11:50:48,025 [    568]   INFO - #c.i.u.i.PageCacheUtils - 	Direct memory to use, max: 2126512128
+2024-12-29 11:50:48,025 [    568]   INFO - #c.i.u.i.PageCacheUtils - 	FilePageCache: regular + lock-free (LOCK_FREE_PAGE_CACHE_ENABLED:true)
+2024-12-29 11:50:48,025 [    568]   INFO - #c.i.u.i.PageCacheUtils - 	NEW_PAGE_CACHE_MEMORY_FRACTION: 0.20000000298023224
+2024-12-29 11:50:48,025 [    568]   INFO - #c.i.u.i.PageCacheUtils - 	Regular FilePageCache: 503316478 bytes
+2024-12-29 11:50:48,025 [    568]   INFO - #c.i.u.i.PageCacheUtils - 	New     FilePageCache: 125829122 bytes (+ up to 10.0% overflow)
+2024-12-29 11:50:48,025 [    568]   INFO - #c.i.u.i.PageCacheUtils - 	DirectByteBuffers pool: 104857600 bytes
+2024-12-29 11:50:48,034 [    577]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses names enumerator over mmapped file
+2024-12-29 11:50:48,034 [    577]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses streamlined attributes storage (over mmapped file)
+2024-12-29 11:50:48,034 [    577]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses OverMMappedFile(pageSize=67108864, acquireStorageOwnership=true) storage for main file records table
+2024-12-29 11:50:48,034 [    577]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses content storage over memory-mapped file, with compression algo: LZ4[ > 8000b ]
+2024-12-29 11:50:48,134 [    677]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS: impl (expected) version=846400, 0 file records, 0 content blobs
+2024-12-29 11:50:48,140 [    683]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {}
+2024-12-29 11:50:48,140 [    683]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS scanned: file-by-name index was populated
+2024-12-29 11:50:48,140 [    683]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS initialized: 117 ms, 0 failed attempts, 0 error(s) were recovered
+2024-12-29 11:50:48,165 [    708]   INFO - #c.i.o.a.ConfigImportHelper - [i18n] Localization property from registry is null
+2024-12-29 11:50:48,167 [    710]   INFO - #c.i.i.p.ExpiredPluginsState - Plugins to skip: []
+2024-12-29 11:50:48,169 [    712]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS.MAX_FILE_LENGTH_TO_CACHE: 1048576
+2024-12-29 11:50:48,170 [    713]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check enabled: first after 600000 ms, and each following 43200000 ms, wrap in RA: true
+2024-12-29 11:50:48,193 [    736]   INFO - #c.i.o.u.r.RegistryManager - Registry values changed by user: actionSystem.playback.typecommand.delay = 0, freeze.reporter.profiling = false, ide.experimental.ui = true, moved.to.new.ui = true
+2024-12-29 11:50:48,208 [    751]   INFO - #c.i.s.m.SettingsRepositoryToSettingsSyncMigration - No data from settingsRepository in 'settingsRepository' folder => no migration needed
+2024-12-29 11:50:48,213 [    756]   INFO - #c.i.h.u.LocalHistoryLog - local history version mismatch (was: 0, expected: 7), rebuilding...
+2024-12-29 11:50:48,213 [    756]   INFO - #c.i.h.u.LocalHistoryLog - FS has been rebuild, rebuilding local history...
+2024-12-29 11:50:48,221 [    764]   INFO - #c.i.u.i.c.d.IndexWriter - Use com.intellij.util.indexing.contentQueue.dev.MultiThreadedWithSuspendIndexWriter@21e7438a as (parallel) index writer implementation
+2024-12-29 11:50:48,225 [    768]   INFO - #c.i.u.i.i.SlruIndexStorageCacheProvider - SLRU cache will be used for indexes
+2024-12-29 11:50:48,225 [    768]   INFO - #c.i.u.i.i.MapIndexStorageCacheProvider$Companion - Default index storage cache provider [com.intellij.util.indexing.impl.SlruIndexStorageCacheProvider@48b2bb40] is used
+2024-12-29 11:50:48,275 [    818]   INFO - #c.i.p.i.b.IdeStartupWizard - IDE startup isEnabled = true, IDEStartupKind = ExperimentalWizard, IDEStartup = 0
+2024-12-29 11:50:48,283 [    826]   INFO - PerformancePlugin - Error watcher has started
+2024-12-29 11:50:48,294 [    837]   INFO - #c.i.i.CommandLineProcessor - External command line:
+Dir: null
+C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\cache\projects\unpacked\anything-llm
+-----
+2024-12-29 11:50:48,330 [    873]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63343
+2024-12-29 11:50:48,340 [    883]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Starting file watcher: C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\cache\builds\WS-243.23654.44\bin\fsnotifier.exe
+2024-12-29 11:50:48,356 [    899]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is operational.
+2024-12-29 11:50:48,359 [    902]   INFO - #c.i.o.v.i.w.WslFileWatcher - WSL file watcher: C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\cache\builds\WS-243.23654.44\bin\fsnotifier-wsl
+2024-12-29 11:50:48,363 [    906]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2024-12-29 11:50:48,365 [    908]   INFO - #c.i.i.s.p.i.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty
+2024-12-29 11:50:48,626 [   1169]   INFO - #c.i.u.n.IdeProxySelector - unable to autodetect proxy settings, using NO_PROXY
+2024-12-29 11:50:48,631 [   1174]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'SchemaTypeInheritance' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,631 [   1174]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'html5.custom.attributes.index' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,633 [   1176]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'FilenameIndex' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,634 [   1177]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'IdIndex' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,635 [   1178]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'FrameworkDetectionIndex' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,636 [   1179]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'TodoIndex' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,637 [   1180]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'Stubs' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,639 [   1182]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'HashFragmentIndex' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,641 [   1184]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'XmlNamespaces' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,643 [   1186]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'XmlTagNames' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,645 [   1188]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'fileIncludes' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,647 [   1190]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'RelaxSymbolIndex' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,651 [   1194]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'Trigram.Index' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,652 [   1195]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'DomFileIndex' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,653 [   1196]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'filetypes' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,654 [   1197]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'editorconfig.index.name' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,751 [   1294]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'HtmlTagIdIndex' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,857 [   1400]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'css.template.selectors' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,869 [   1412]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'js.test.names' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,871 [   1414]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'http.request.headers.values.index' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,880 [   1423]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'http.request.name.index' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,883 [   1426]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'SwReferencesIndex' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,886 [   1429]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'OpenapiSpecificationContentIndexer' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,888 [   1431]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'CssIndex' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,888 [   1431]   WARN - #c.i.e.w.WslDistributionManager - Failed to run C:\Windows\system32\wsl.exe --list --verbose: {exitCode=1, timeout=false, cancelled=false, stdout=, stderr=The Windows Subsystem for Linux is not installed. You can install by running 'wsl.exe --install'.
+For more information please visit https://aka.ms/wslinstall
+}, done in 59 ms
+java.io.IOException: Failed to run C:\Windows\system32\wsl.exe --list --verbose: {exitCode=1, timeout=false, cancelled=false, stdout=, stderr=The Windows Subsystem for Linux is not installed. You can install by running 'wsl.exe --install'.
+For more information please visit https://aka.ms/wslinstall
+}, done in 59 ms
+	at com.intellij.execution.wsl.WslDistributionManagerImpl.loadInstalledDistributionsWithVersions(WslDistributionManagerImpl.java:85)
+	at com.intellij.execution.wsl.WslDistributionManager.loadInstalledDistributions(WslDistributionManager.java:167)
+	at com.intellij.execution.wsl.WslDistributionManager.getInstalledDistributions(WslDistributionManager.java:86)
+	at com.intellij.execution.wsl.ijent.nio.toggle.IjentWslNioFsToggleStrategy.enableForAllWslDistributions(IjentNioFsStrategy.kt:62)
+	at com.intellij.execution.wsl.ijent.nio.toggle.IjentWslNioFsToggler.enableForAllWslDistributions(IjentWslNioFsToggler.kt:58)
+	at com.intellij.execution.wsl.ijent.nio.toggle.IjentWslNioFsVmOptionsSetter$ApplicationListener$applicationActivated$1.invokeSuspend(IjentWslNioFsVmOptionsSetter.kt:164)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)
+2024-12-29 11:50:48,891 [   1434]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'json.file.root.values' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,896 [   1439]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'http.request.execution.environment' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,903 [   1446]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'CompassFunctionsIndex' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,904 [   1447]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'http.request.completion.host' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,920 [   1463]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'js.package.index' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,923 [   1466]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'js.implicit.elements.index' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,925 [   1468]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'js.string.literal.words.index' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,928 [   1471]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'js.custom.single.entry.index' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,947 [   1490]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'TypeScriptExternalPathCandidates' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,949 [   1492]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'HtmlScriptSrcIndex' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,950 [   1493]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'sql.types.count.index' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,950 [   1493]   INFO - #c.i.p.p.ProjectEntitiesStorage - Creating entity for project ProjectId(id=1hndijkat1l92urp25mg)
+2024-12-29 11:50:48,962 [   1505]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'sql.routine.index' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:48,970 [   1513]   INFO - #c.i.p.p.ProjectEntitiesStorage - Entity for project ProjectId(id=1hndijkat1l92urp25mg) created successfully
+2024-12-29 11:50:48,994 [   1537]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'VueNoScriptFilesIndex' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:49,011 [   1554]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'VueComponentStylesIndex' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:49,014 [   1557]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'WebComponentsIndex' index (applicable providers: [default, fake-storage]) 
+2024-12-29 11:50:49,032 [   1575]   INFO - #c.i.w.i.i.l.m.ModuleBridgeLoaderService - Workspace model loaded without cache. Loading real project state into workspace model. Thread[#34,DefaultDispatcher-worker-4,5,main]
+2024-12-29 11:50:49,056 [   1599]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:FrameworkDetectionIndex(v = 65536),OpenapiSpecificationContentIndexer(v = 13),VueNoScriptFilesIndex(v = 11),HashFragmentIndex(v = 19111503),sql.routine.index(v = 1),CompassFunctionsIndex(v = 40),TodoIndex(v = 13),TypeScriptExternalPathCandidates(v = 0),json.file.root.values(v = 5),XmlNamespaces(v = 8),HtmlTagIdIndex(v = 3),sql.types.count.index(v = 0),css.template.selectors(v = 37),SwReferencesIndex(v = 1),js.implicit.elements.index(v = 1202181),html5.custom.attributes.index(v = 1),IdIndex(v = 22),fileIncludes(v = 6),filetypes(v = 4096),WebComponentsIndex(v = 5),js.string.literal.words.index(v = 4),http.request.completion.host(v = 5),SchemaTypeInheritance(v = 2),CssIndex(v = 42),VueComponentStylesIndex(v = 2),RelaxSymbolIndex(v = 0),http.request.execution.environment(v = 3),Stubs(v = 46),HtmlScriptSrcIndex(v = 1),DomFileIndex(v = 0),editorconfig.index.name(v = 5),FilenameIndex(v = 258),js.package.index(v = 12),js.custom.single.entry.index(v = 1202171),XmlTagNames(v = 1),js.test.names(v = 25),http.request.headers.values.index(v = 4),Trigram.Index(v = 4),http.request.name.index(v = 2)
+2024-12-29 11:50:49,058 [   1601]   INFO - #c.i.u.i.FileBasedIndexImpl - Using nice flusher for indexes
+2024-12-29 11:50:49,062 [   1605]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 736 ms. Initialized indexes: [FilenameIndex, filetypes, TodoIndex, DomFileIndex, editorconfig.index.name, HtmlTagIdIndex, XmlTagNames, IdIndex, RelaxSymbolIndex, html5.custom.attributes.index, SchemaTypeInheritance, XmlNamespaces, Trigram.Index, FrameworkDetectionIndex, HashFragmentIndex, fileIncludes, Stubs, css.template.selectors, SwReferencesIndex, js.test.names, http.request.execution.environment, OpenapiSpecificationContentIndexer, json.file.root.values, http.request.name.index, CssIndex, http.request.headers.values.index, http.request.completion.host, CompassFunctionsIndex, js.package.index, sql.types.count.index, js.string.literal.words.index, js.implicit.elements.index, HtmlScriptSrcIndex, sql.routine.index, TypeScriptExternalPathCandidates, js.custom.single.entry.index, VueNoScriptFilesIndex, WebComponentsIndex, VueComponentStylesIndex].
+2024-12-29 11:50:49,085 [   1628]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.SdkEntity from files
+2024-12-29 11:50:49,086 [   1629]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.LibraryEntity from files
+2024-12-29 11:50:49,099 [   1642]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Sync global entities with mutable entity storage
+2024-12-29 11:50:49,132 [   1675]   INFO - #c.i.w.i.i.j.s.JpsProjectModelSynchronizer - Attempt 1: Apply JPS storage (iml files)
+2024-12-29 11:50:49,213 [   1756]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2024-12-29 11:50:49,216 [   1759]   INFO - #c.i.w.i.i.j.s.JpsProjectModelSynchronizer - Attempt 1: Changes were successfully applied
+2024-12-29 11:50:49,237 [   1780]   WARN - #c.i.s.ComponentManagerImpl - `preload=NOT_HEADLESS` must be used only for core services (service=com.jetbrains.rdserver.toolWindow.BackendServerToolWindowManager, plugin=com.jetbrains.codeWithMe)
+2024-12-29 11:50:49,238 [   1781]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.users.BackendUserManager, plugin=com.jetbrains.codeWithMe)
+2024-12-29 11:50:49,238 [   1781]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.ports.CwmPortForwardingToolWindowManager, plugin=com.jetbrains.codeWithMe)
+2024-12-29 11:50:49,238 [   1781]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.following.FollowMeManagerService, plugin=com.jetbrains.codeWithMe)
+2024-12-29 11:50:49,286 [   1829]   INFO - #c.i.r.OsRegistryConfigProvider - Looking for 'enabled' value in [HKLM_64\SOFTWARE\JetBrains\portForwarding\enabled, HKLM_32\SOFTWARE\JetBrains\portForwarding\enabled, HKCU_64\SOFTWARE\JetBrains\portForwarding\enabled, HKCU_32\SOFTWARE\JetBrains\portForwarding\enabled]
+2024-12-29 11:50:49,289 [   1832]   INFO - #c.i.r.OsRegistryConfigProvider - OS provided value for 'enabled' is not found
+2024-12-29 11:50:49,293 [   1836]   INFO - #c.i.c.p.f.FollowMeManager - Register new user (name: 'thund', client id: Host)
+2024-12-29 11:50:49,346 [   1889]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
+2024-12-29 11:50:49,445 [   1988]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2024-12-29 11:50:49,448 [   1991]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 2 in 42 ms: Module model commit
+2024-12-29 11:50:49,498 [   2041]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2024-12-29 11:50:49,500 [   2043]   INFO - #c.i.o.a.i.NonBlockingReadActionImpl - OTel monitoring for NonBlockingReadAction is enabled
+2024-12-29 11:50:49,507 [   2050]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 3 in 17 ms: Root model commit
+2024-12-29 11:50:49,569 [   2112]   INFO - #c.i.p.s.StubIndexImpl - Following stub indices will be built:JS.class.implements(v = 3),vue.global.filters.index(v = 25),Css.ampersand.selector(v = 2),sql.table.shortName(v = 3),dom.elementClass(v = 0),js.lazy.packages(v = 3),angular2.ivy.directive.index(v = 9),vuex.store.index(v = 25),amd.baseUrl.index(v = 2),angular2.source.directive.index(v = 9),Css.custom.property(v = 2),es6.assignment.index(v = 2),js.global.symbol.index(v = 2),js.symbol.qualified.names.index(v = 1),angular2.source.pipe.index(v = 9),angular2.metadata.node.index(v = 9),js.symbol.index2(v = 6),Scss.placeholder.selector(v = 2),angular2.ivy.module.index(v = 9),vue.mixin.binding.index(v = 25),angular2.metadata.function.index(v = 9),angular2.metadata.module.index(v = 9),angular2.metadata.pipe.index(v = 9),Less.variables(v = 2),es6.exported.index(v = 2),js.namespace.index(v = 2),js.qualified.shortName(v = 4),JS.subclass.stub.index(v = 2),postcss.custom.selector(v = 2),Scss.mixin(v = 3),ts.global.exported.index(v = 2),angular2.templateUrl.index(v = 9),angular2.metadata.directive.index(v = 9),ts.embedded.content.index(v = 2),vue.composition.app.index(v = 25),vue.extends.binding.index(v = 25),js.class.index2(v = 3),markdown.header(v = 2),js.export.default.react.component.index(v = 2),vue.url.index(v = 25),Css.attr(v = 2),JS.class.super(v = 5),sql.names(v = 21),Less.mixins(v = 2),JS.global.qualified.elements(v = 3),js.generics.index(v = 2),Css.custom.variable(v = 3),Scss.function(v = 3),JS.framework.markers.index(v = 2),JS.base.types.index(v = 3),vue.components.index(v = 25),postcss.custom.media(v = 2),redis.dml.shortName(v = 3),markdown.header.anchor(v = 2),angular2.metadata.className.index(v = 9),amd.requirePaths.index(v = 2),Css.custom.mixin(v = 2),js.imported.bindings.index(v = 2),js.used.remote.modules(v = 2),sql.column.name(v = 3),vue.id.index(v = 25),js.doc.modules(v = 2),Css.class(v = 3),ts.external.module.index(v = 3),Css.id(v = 2),js.typedef.index2(v = 2),js.element.qualifiedName(v = 3),angular2.symbol.index(v = 9),angular2.source.module.index(v = 9),jade.mixin(v = 2),Scss.variable(v = 2),dom.namespaceKey(v = 1),angular2.ivy.pipe.index(v = 9),ts.external.module.name.index(v = 3),js.exported.index(v = 2),ts.local.classes(v = 2),js.gcl.modules(v = 2),vue.options.index(v = 25),js.amd.modules(v = 2),vue.global.directives.index(v = 25),js.nonglobal.symbol.index(v = 2),js.local.namespace.members.index(v = 2)
+2024-12-29 11:50:49,570 [   2113]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 508 ms. Initialized stub indexes: {vue.url.index, angular2.metadata.pipe.index, js.exported.index, Scss.function, angular2.ivy.directive.index, angular2.templateUrl.index, js.gcl.modules, js.local.namespace.members.index, js.nonglobal.symbol.index, Less.mixins, js.typedef.index2, Css.id, js.symbol.qualified.names.index, vue.id.index, JS.global.qualified.elements, es6.assignment.index, angular2.ivy.module.index, vuex.store.index, JS.class.implements, JS.base.types.index, js.qualified.shortName, JS.framework.markers.index, vue.global.filters.index, Scss.variable, Css.class, angular2.metadata.module.index, js.global.symbol.index, angular2.metadata.directive.index, angular2.metadata.className.index, ts.global.exported.index, amd.requirePaths.index, js.lazy.packages, JS.subclass.stub.index, JS.class.super, ts.local.classes, angular2.source.pipe.index, markdown.header, angular2.metadata.node.index, postcss.custom.selector, vue.options.index, vue.components.index, Less.variables, Css.custom.property, Scss.placeholder.selector, sql.names, sql.table.shortName, js.amd.modules, angular2.source.directive.index, js.doc.modules, angular2.source.module.index, vue.global.directives.index, js.class.index2, markdown.header.anchor, js.symbol.index2, js.imported.bindings.index, postcss.custom.media, js.export.default.react.component.index, angular2.symbol.index, js.generics.index, vue.composition.app.index, vue.mixin.binding.index, vue.extends.binding.index, angular2.metadata.function.index, Css.attr, js.used.remote.modules, angular2.ivy.pipe.index, sql.column.name, Css.custom.variable, Scss.mixin, amd.baseUrl.index, js.element.qualifiedName, Css.custom.mixin, es6.exported.index, jade.mixin, ts.external.module.index, ts.embedded.content.index, dom.namespaceKey, ts.external.module.name.index, Css.ampersand.selector, redis.dml.shortName, dom.elementClass, js.namespace.index}.
+2024-12-29 11:50:49,597 [   2140]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2024-12-29 11:50:49,597 [   2140]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 4 in 52 ms: Root model commit
+2024-12-29 11:50:49,663 [   2206]   INFO - #c.i.p.i.d.s.IdeStartUpPerformanceService - startup phase completed: editor highlighted
+2024-12-29 11:50:49,688 [   2231]   INFO - PerformancePlugin - Option ide.performance.screenshot is initialized, screenshots will be captured
+2024-12-29 11:50:49,688 [   2231]   INFO - PerformancePlugin - Start Execution
+2024-12-29 11:50:49,713 [   2256]   INFO - STDOUT - [11:50:49]: INFO - com.intellij.tools.ide.starter.bus.shared.client.LocalEventBusServerClient - New subscriber StopProfilerEvent
+2024-12-29 11:50:49,884 [   2427]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:started:Updating indexes
+2024-12-29 11:50:49,905 [   2448]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@1ae99931
+2024-12-29 11:50:49,909 [   2452]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Initializing DumbServiceMergingTaskQueue...
+2024-12-29 11:50:49,909 [   2452]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Running initialization condition: com.intellij.indexing.shared.download.SharedIndexDownloadedCondition@51659d60
+2024-12-29 11:50:49,911 [   2454]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Finished: com.intellij.indexing.shared.download.SharedIndexDownloadedCondition@51659d60
+2024-12-29 11:50:49,914 [   2457]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.indexing.shared.platform.impl.OnDiskSharedIndexChunkLocator@74298f7c
+2024-12-29 11:50:49,916 [   2459]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.indexing.shared.platform.impl.OnDiskSharedIndexChunkLocator@74298f7c
+2024-12-29 11:50:49,916 [   2459]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@30c427f6
+2024-12-29 11:50:49,921 [   2464]   INFO - #c.i.u.i.p.IncrementalProjectIndexableFilesFilterHolder - PersistentProjectIndexableFilesFilterFactory is chosen as indexable files filter factory for project: anything-llm
+2024-12-29 11:50:49,942 [   2485]   INFO - #c.i.u.i.d.AppIndexingDependenciesService - Invalidating all indexing flags. Reason: App fingerprint changed: FingerprintImpl(fingerprint=0) to FingerprintImpl(fingerprint=8586435375901917391)
+2024-12-29 11:50:49,959 [   2502]   INFO - #c.i.u.i.UnindexedFilesScanner - Full scanning on startup will NOT be skipped for project anything-llm because of following unsatisfied conditions:
+FILTER_IS_NOT_UP_TO_DATE: Persistent indexable files filter is NOT up-to-date because of following unsatisfied conditions: [IS_FILTER_LOADED_FROM_DISK, FILTER_IS_NOT_INVALIDATED, INDEXING_REQUEST_ID_DID_NOT_CHANGE_AFTER_LAST_SCANNING]
+REGISTRY_FILE_IS_ON: Registry flag 'full.scanning.on.startup.can.be.skipped' is turned off
+2024-12-29 11:50:49,970 [   2513]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@30c427f6
+2024-12-29 11:50:49,970 [   2513]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.FileBasedIndexInfrastructureExtensionStartup@66bed85
+2024-12-29 11:50:49,972 [   2515]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.FileBasedIndexInfrastructureExtensionStartup@66bed85
+2024-12-29 11:50:49,973 [   2516]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@374fd771
+2024-12-29 11:50:49,975 [   2518]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@374fd771
+2024-12-29 11:50:49,975 [   2518]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@1620272e
+2024-12-29 11:50:49,982 [   2525]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@1620272e
+2024-12-29 11:50:49,983 [   2526]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@1ae99931
+2024-12-29 11:50:49,985 [   2528]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:finished:Updating indexes
+2024-12-29 11:50:50,013 [   2556]   INFO - #c.i.o.u.i.UpdateChecker - failed to load update data (java.net.ConnectException: Connection refused: getsockopt)
+2024-12-29 11:50:50,016 [   2559]   INFO - #c.i.c.p.p.ProvisionedCodeWithMeEnterpriseConfiguration - No JBIDES plugin found. Using public/self-configured CWM.
+2024-12-29 11:50:50,017 [   2560]   INFO - #c.i.r.OsRegistryConfigProvider - Looking for 'isCodeWithMeHostEnabled' value in [HKLM_64\SOFTWARE\JetBrains\CodeWithMe\isCodeWithMeHostEnabled, HKLM_32\SOFTWARE\JetBrains\CodeWithMe\isCodeWithMeHostEnabled, HKCU_64\SOFTWARE\JetBrains\CodeWithMe\isCodeWithMeHostEnabled, HKCU_32\SOFTWARE\JetBrains\CodeWithMe\isCodeWithMeHostEnabled]
+2024-12-29 11:50:50,017 [   2560]   INFO - #c.i.r.OsRegistryConfigProvider - OS provided value for 'isCodeWithMeHostEnabled' is not found
+2024-12-29 11:50:50,018 [   2561]   INFO - #c.i.r.OsRegistryConfigProvider - Looking for 'lobbyServerUrl' value in [HKLM_64\SOFTWARE\JetBrains\CodeWithMe\lobbyServerUrl, HKLM_32\SOFTWARE\JetBrains\CodeWithMe\lobbyServerUrl, HKCU_64\SOFTWARE\JetBrains\CodeWithMe\lobbyServerUrl, HKCU_32\SOFTWARE\JetBrains\CodeWithMe\lobbyServerUrl]
+2024-12-29 11:50:50,018 [   2561]   INFO - #c.i.r.OsRegistryConfigProvider - OS provided value for 'lobbyServerUrl' is not found
+2024-12-29 11:50:50,181 [   2724]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [anything-llm]
+2024-12-29 11:50:50,183 [   2726]   INFO - #c.i.o.p.UnindexedFilesScannerExecutor - [263e60bc] Running task: com.intellij.util.indexing.UnindexedFilesScannerExecutorImpl$ScheduledScanningTask@328ac16c
+2024-12-29 11:50:50,190 [   2733]   INFO - #c.i.u.i.UnindexedFilesScanner - [263e60bc], scanning stage: DelayedPushProperties
+2024-12-29 11:50:50,258 [   2801]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of anything-llm. Reason: On project open
+2024-12-29 11:50:50,275 [   2818]   INFO - #c.i.u.i.UnindexedFilesScanner - [263e60bc], scanning stage: CreatingIterators
+2024-12-29 11:50:50,283 [   2826]   INFO - #c.i.o.w.i.ToolWindowManagerImpl - Ignore setShowStripeButton(id=Database Changes, value=false) - not applicable for a new UI
+2024-12-29 11:50:50,295 [   2838]   INFO - #c.i.o.u.i.UpdateCheckerService - channel: release
+2024-12-29 11:50:50,301 [   2844]   INFO - #c.i.o.a.ConfigImportHelper - [i18n] Localization property from registry is null
+2024-12-29 11:50:50,305 [   2848]   INFO - #c.i.s.c.s.IdeStationServerService$Companion - Discovery is disabled
+2024-12-29 11:50:50,308 [   2851]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.IdeBundle
+2024-12-29 11:50:50,318 [   2861]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.DockerBundle
+2024-12-29 11:50:50,319 [   2862]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.DatabaseBundle
+2024-12-29 11:50:50,329 [   2872]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.UIBundle
+2024-12-29 11:50:50,333 [   2876]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.CommonBundle
+2024-12-29 11:50:50,373 [   2916]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.SpellCheckerBundle
+2024-12-29 11:50:50,377 [   2920]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.ProjectConceptBundle
+2024-12-29 11:50:50,391 [   2934]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.VcsBundle
+2024-12-29 11:50:50,401 [   2944]   INFO - #c.i.o.e.s.p.m.ExternalProjectsDataStorage - Load external projects data in 3 millis (read time: 3)
+2024-12-29 11:50:50,426 [   2969]   INFO - #c.i.i.p.i.ProjectViewInitNotifier - Project View initialization started
+2024-12-29 11:50:50,433 [   2976]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.CoreBundle
+2024-12-29 11:50:50,508 [   3051]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.AnalysisBundle
+2024-12-29 11:50:50,713 [   3256]   INFO - #c.i.i.p.i.ProjectViewInitNotifier - Project View initialization completed
+2024-12-29 11:50:50,759 [   3302]   INFO - #c.i.i.b.BookmarksManager - no state loaded for new bookmarks
+2024-12-29 11:50:50,761 [   3304]   INFO - #c.i.i.s.IdeStartupScripts - 0 startup script(s) found
+2024-12-29 11:50:50,762 [   3305]   INFO - #c.i.i.b.BookmarkManager - no state loaded for old bookmarks
+2024-12-29 11:50:50,770 [   3313]   INFO - #c.i.i.f.FavoritesManager - no state loaded for old favorites
+2024-12-29 11:50:50,807 [   3350]   INFO - #c.i.l.t.l.TypeScriptLibraryProviderImpl - Start refreshing typescript libraries
+2024-12-29 11:50:50,809 [   3352]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.IdeCoreBundle
+2024-12-29 11:50:50,816 [   3359]   INFO - #c.i.u.i.UnindexedFilesScanner - [263e60bc], scanning stage: CollectingIndexableFiles
+2024-12-29 11:50:50,833 [   3376]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of anything-llm uses 15 scanning threads
+2024-12-29 11:50:50,833 [   3376]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.IndexingBundle
+2024-12-29 11:50:50,894 [   3437]   INFO - #c.i.p.PrettierUtil - Could not read config data from file [C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/.prettierrc]
+com.intellij.openapi.progress.ProcessCanceledException
+	at com.intellij.openapi.progress.EmptyProgressIndicatorBase.checkCanceled(EmptyProgressIndicatorBase.java:72)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.doCheckCanceled(CoreProgressManager.java:167)
+	at com.intellij.openapi.progress.ProgressManager.checkCanceled(ProgressManager.java:336)
+	at com.intellij.openapi.extensions.impl.ExtensionPointImpl$Companion.setCheckCanceledAction$lambda$0(ExtensionPointImpl.kt:77)
+	at com.intellij.openapi.extensions.impl.ExtensionPointImpl.createExtensionInstances(ExtensionPointImpl.kt:353)
+	at com.intellij.openapi.extensions.impl.ExtensionPointImpl.getExtensionList(ExtensionPointImpl.kt:223)
+	at com.intellij.openapi.extensions.ExtensionPointName.getExtensionList(ExtensionPointName.kt:54)
+	at com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl.getListeners(FileDocumentManagerImpl.java:828)
+	at com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl.multiCast(FileDocumentManagerImpl.java:184)
+	at com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl.lambda$new$0(FileDocumentManagerImpl.java:130)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.fileContentLoaded(Unknown Source)
+	at com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl.fileContentLoaded(FileDocumentManagerImpl.java:912)
+	at com.intellij.openapi.fileEditor.impl.FileDocumentManagerBase.getDocument(FileDocumentManagerBase.java:92)
+	at com.intellij.openapi.fileEditor.FileDocumentManager.getDocument(FileDocumentManager.java:61)
+	at com.intellij.psi.AbstractFileViewProvider.getDocument(AbstractFileViewProvider.java:170)
+	at com.intellij.psi.AbstractFileViewProvider$VirtualFileContent.getText(AbstractFileViewProvider.java:446)
+	at com.intellij.psi.AbstractFileViewProvider.getContents(AbstractFileViewProvider.java:151)
+	at com.intellij.psi.impl.source.PsiFileImpl.getText(PsiFileImpl.java:327)
+	at com.intellij.prettierjs.PrettierUtil.parseConfigInternal(PrettierUtil.java:202)
+	at com.intellij.prettierjs.PrettierUtil.lambda$parseConfig$3(PrettierUtil.java:185)
+	at com.intellij.psi.util.CachedValuesManager$1.compute(CachedValuesManager.java:173)
+	at com.intellij.psi.impl.AbstractPsiCachedValue.doCompute(PsiCachedValueImpl.kt:21)
+	at com.intellij.util.CachedValueBase.lambda$getValueWithLock$3(CachedValueBase.java:299)
+	at com.intellij.util.CachedValueBase.computeData(CachedValueBase.java:37)
+	at com.intellij.util.CachedValueBase.lambda$getValueWithLock$4(CachedValueBase.java:299)
+	at com.intellij.openapi.util.RecursionManager$1.computePreventingRecursion(RecursionManager.java:113)
+	at com.intellij.openapi.util.RecursionGuard.doPreventingRecursion(RecursionGuard.java:29)
+	at com.intellij.openapi.util.RecursionManager.doPreventingRecursion(RecursionManager.java:68)
+	at com.intellij.util.CachedValueBase.getValueWithLock(CachedValueBase.java:300)
+	at com.intellij.psi.impl.AbstractPsiCachedValue.getValue(PsiCachedValueImpl.kt:15)
+	at com.intellij.util.CachedValuesManagerImpl.getCachedValue(CachedValuesManagerImpl.java:83)
+	at com.intellij.psi.util.CachedValuesManager.getCachedValue(CachedValuesManager.java:170)
+	at com.intellij.psi.util.CachedValuesManager.getCachedValue(CachedValuesManager.java:136)
+	at com.intellij.prettierjs.PrettierUtil.lambda$parseConfig$4(PrettierUtil.java:185)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runReadAction(AnyThreadWriteThreadingSupport.kt:272)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runReadAction(AnyThreadWriteThreadingSupport.kt:262)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:864)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:66)
+	at com.intellij.prettierjs.PrettierUtil.parseConfig(PrettierUtil.java:177)
+	at com.intellij.prettierjs.PrettierCodeStyleImporter.parseConfigFromFile(PrettierCodeStyleImporter.java:61)
+	at com.intellij.prettierjs.PrettierCodeStyleImporter.parseConfigFromFile(PrettierCodeStyleImporter.java:23)
+	at com.intellij.lang.javascript.linter.JSLinterCodeStyleImporter.importConfigFile(JSLinterCodeStyleImporter.java:89)
+	at com.intellij.lang.javascript.linter.JSLinterCodeStyleImporter.importConfigFileWhenToolInstalled(JSLinterCodeStyleImporter.java:60)
+	at com.intellij.prettierjs.PrettierCompatibleCodeStyleInstaller.installCodeStyle(PrettierCompatibleCodeStyleInstaller.java:38)
+	at com.intellij.prettierjs.PrettierCompatibleCodeStyleInstaller.lambda$configureProject$0(PrettierCompatibleCodeStyleInstaller.java:28)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor.callWrapped(NonBlockingReadActionImpl.java:857)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor$MonitoredComputation.call(NonBlockingReadActionImpl.java:889)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.insideReadAction(NonBlockingReadActionImpl.java:618)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.lambda$attemptComputation$4(NonBlockingReadActionImpl.java:581)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.tryRunReadAction(AnyThreadWriteThreadingSupport.kt:351)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:972)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:95)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtilService.runActionAndCancelBeforeWrite(ProgressIndicatorUtilService.java:66)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runActionAndCancelBeforeWrite(ProgressIndicatorUtils.java:157)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$1(ProgressIndicatorUtils.java:140)
+	at com.intellij.openapi.progress.ProgressManager.lambda$runProcess$0(ProgressManager.java:98)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:223)
+	at com.intellij.platform.diagnostic.telemetry.helpers.TraceKt.use(trace.kt:45)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:222)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$14(CoreProgressManager.java:674)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:749)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:705)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:673)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:79)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:203)
+	at com.intellij.openapi.progress.ProgressManager.runProcess(ProgressManager.java:98)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:137)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:95)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.attemptComputation(NonBlockingReadActionImpl.java:581)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.executeSynchronously(NonBlockingReadActionImpl.java:506)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl.executeSynchronously(NonBlockingReadActionImpl.java:222)
+	at com.intellij.prettierjs.PrettierCompatibleCodeStyleInstaller.lambda$configureProject$1(PrettierCompatibleCodeStyleInstaller.java:30)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runActivities$3$1.invokeSuspend$lambda$1$lambda$0(StartupManagerImpl.kt:365)
+	at com.intellij.openapi.progress.CoroutinesKt.blockingContextInner(coroutines.kt:341)
+	at com.intellij.openapi.progress.CoroutinesKt$blockingContext$2.invokeSuspend(coroutines.kt:233)
+	at com.intellij.openapi.progress.CoroutinesKt$blockingContext$2.invoke(coroutines.kt)
+	at com.intellij.openapi.progress.CoroutinesKt$blockingContext$2.invoke(coroutines.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:62)
+	at kotlinx.coroutines.CoroutineScopeKt.coroutineScope(CoroutineScope.kt:261)
+	at com.intellij.openapi.progress.CoroutinesKt.blockingContext(coroutines.kt:232)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runActivities$3$1.invokeSuspend(StartupManagerImpl.kt:364)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)
+2024-12-29 11:50:50,906 [   3449]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2024-12-29 11:50:50,907 [   3450]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 5 in 6 ms: ConstantEntitiesCheckActivity
+2024-12-29 11:50:50,983 [   3526]   INFO - #c.i.i.s.p.i.SharedIndexChunkConfigurationImpl - Chunk bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.44 is registered for project 'anything-llm: matching: (fb=32, stub=82), incompatible: (fb=0, stub=0), unknown: (fb=10, stub=9), 
+2024-12-29 11:50:51,026 [   3569]   INFO - #c.i.i.s.p.i.BundledSharedIndexPostStartupActivity - Attached 1 pre-built shared indexes: bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.44
+2024-12-29 11:50:51,028 [   3571]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.LicenseBundle
+2024-12-29 11:50:51,159 [   3702]   INFO - #c.i.u.i.c.ManagedPersistentCache - created graved-declarative-hints-anything-llm-263e60bc with size 0
+2024-12-29 11:50:51,159 [   3702]   INFO - #c.i.u.i.c.ManagedPersistentCache - created graved-code-vision-anything-llm-263e60bc with size 0
+2024-12-29 11:50:51,159 [   3702]   INFO - #c.i.u.i.c.ManagedPersistentCache - created graved-parameter-hints-anything-llm-263e60bc with size 0
+2024-12-29 11:50:51,159 [   3702]   INFO - #c.i.u.i.c.ManagedPersistentCache - created graved-doc-render-anything-llm-263e60bc with size 0
+2024-12-29 11:50:51,159 [   3702]   INFO - #c.i.u.i.c.ManagedPersistentCache - created graved-code-folding-anything-llm-263e60bc with size 0
+2024-12-29 11:50:51,159 [   3702]   INFO - #c.i.u.i.c.ManagedPersistentCache - created graved-highlighting-anything-llm-263e60bc with size 0
+2024-12-29 11:50:51,180 [   3723]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.ExecutionBundle
+2024-12-29 11:50:51,184 [   3727]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.JavaScriptBundle
+2024-12-29 11:50:51,189 [   3732]   INFO - #c.i.p.i.d.s.IdeStartUpPerformanceService - startup phase completed: project dumb aware activities finished
+2024-12-29 11:50:51,192 [   3735]   INFO - #c.i.d.PerformanceWatcherImpl - Post-startup activities under progress took 894ms; general responsiveness: ok; EDT responsiveness: ok
+2024-12-29 11:50:51,200 [   3743]   INFO - #c.i.o.a.i.ActionUpdater - 394 ms to grab EDT for CWMUserCirclesGroup#presentation@MainToolbar (com.intellij.cwm.plugin.common.toolbar.CWMUserCirclesGroup)
+2024-12-29 11:50:51,201 [   3744]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.XDebuggerBundle
+2024-12-29 11:50:51,213 [   3756]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml5.xsd by request of indexes: [DomFileIndex->NOT_INDEXED,filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,XmlNamespaces->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file xhtml5.xsd with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=247, fileInfo='xhtml5.xsd(id=247)'}] and removers: []; 
+2024-12-29 11:50:51,271 [   3814]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of http-client.env.json by request of indexes: [SwReferencesIndex->NOT_INDEXED,OpenapiSpecificationContentIndexer->NOT_INDEXED,filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,json.file.root.values->NOT_INDEXED,http.request.execution.environment->NOT_INDEXED,]. Scanner has updated file http-client.env.json with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=219, fileInfo='http-client.env.json(id=219)'}] and removers: []; 
+2024-12-29 11:50:51,452 [   3995]   INFO - #c.i.o.v.i.p.NewMappings - VCS Root: [Git] - [<Project>]
+2024-12-29 11:50:51,494 [   4037]   INFO - #git4idea.commands.GitHandler - [.] git version
+2024-12-29 11:50:51,496 [   4039]   INFO - #c.i.o.v.i.p.NewMappings - Mapped Roots: 1
+2024-12-29 11:50:51,497 [   4040]   INFO - #c.i.o.v.i.p.NewMappings - Detected mapped Root: [Git] - [C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm]
+2024-12-29 11:50:51,507 [   4050]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.ShBundle
+2024-12-29 11:50:51,520 [   4063]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.JSDebuggerBundle
+2024-12-29 11:50:51,555 [   4098]   INFO - #git4idea.commands.GitHandler - git version 2.45.1.windows.1
+2024-12-29 11:50:51,561 [   4104]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:started:File system synchronization
+2024-12-29 11:50:51,564 [   4107]   INFO - #c.i.l.t.l.TypeScriptLibraryProviderImpl - End refreshing typescript libraries
+2024-12-29 11:50:51,565 [   4108]   INFO - #git4idea.config.GitExecutableFileTester - Git version for C:\Program Files\Git\cmd\git.exe: 2.45.1.0 (MSYS)
+2024-12-29 11:50:51,574 [   4117]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:finished:File system synchronization
+2024-12-29 11:50:51,680 [   4223]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.EditorConfigBundle
+2024-12-29 11:50:51,683 [   4226]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.CssBundle
+2024-12-29 11:50:51,684 [   4227]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.JsonBundle
+2024-12-29 11:50:51,685 [   4228]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.YAMLBundle
+2024-12-29 11:50:51,686 [   4229]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.MarkdownBundle
+2024-12-29 11:50:51,687 [   4230]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.RestClientBundle
+2024-12-29 11:50:51,696 [   4239]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.EjsBundle
+2024-12-29 11:50:51,858 [   4401]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of http-client.private.env.json by request of indexes: [SwReferencesIndex->NOT_INDEXED,OpenapiSpecificationContentIndexer->NOT_INDEXED,filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,json.file.root.values->NOT_INDEXED,http.request.execution.environment->NOT_INDEXED,]. Scanner has updated file http-client.private.env.json with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=225, fileInfo='http-client.private.env.json(id=225)'}] and removers: []; 
+2024-12-29 11:50:51,858 [   4401]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml11.dtd by request of indexes: [filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,]. Scanner has updated file xhtml11.dtd with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=266, fileInfo='xhtml11.dtd(id=266)'}] and removers: []; 
+2024-12-29 11:50:51,858 [   4401]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml-lat1.ent by request of indexes: [filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,]. Scanner has updated file xhtml-lat1.ent with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=256, fileInfo='xhtml-lat1.ent(id=256)'}] and removers: []; 
+2024-12-29 11:50:51,859 [   4402]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml-base-1.mod by request of indexes: [filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,]. Scanner has updated file xhtml-base-1.mod with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=287, fileInfo='xhtml-base-1.mod(id=287)'}] and removers: []; 
+2024-12-29 11:50:51,859 [   4402]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml-edit-1.mod by request of indexes: [filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,]. Scanner has updated file xhtml-edit-1.mod with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=251, fileInfo='xhtml-edit-1.mod(id=251)'}] and removers: []; 
+2024-12-29 11:50:51,860 [   4403]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml-form-1.mod by request of indexes: [filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,]. Scanner has updated file xhtml-form-1.mod with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=275, fileInfo='xhtml-form-1.mod(id=275)'}] and removers: []; 
+2024-12-29 11:50:51,860 [   4403]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of xhtml-link-1.mod by request of indexes: [filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,]. Scanner has updated file xhtml-link-1.mod with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=258, fileInfo='xhtml-link-1.mod(id=258)'}] and removers: []; 
+2024-12-29 11:50:51,864 [   4407]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of lib.dom.d.ts by request of indexes: [filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file lib.dom.d.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=20, fileInfo='lib.dom.d.ts(id=20)'}] and removers: []; 
+2024-12-29 11:50:51,893 [   4436]   INFO - #c.i.u.j.JBCefApp - JCEF-sandbox is enabled
+2024-12-29 11:50:51,905 [   4448]   WARN - #c.i.u.Alarm - Do not create alarm without coroutineScope: com.intellij.ui.jcef.JBCefOsrComponent.<init>(JBCefOsrComponent.java:52)
+2024-12-29 11:50:52,021 [   4564]   WARN - #c.i.u.Alarm - Do not create alarm without coroutineScope: com.intellij.ui.jcef.JBCefOsrComponent.<init>(JBCefOsrComponent.java:52)
+2024-12-29 11:50:52,031 [   4574]   WARN - #c.i.u.Alarm - Do not create alarm without coroutineScope: com.intellij.ui.jcef.JBCefOsrComponent.<init>(JBCefOsrComponent.java:52)
+2024-12-29 11:50:52,042 [   4585]   WARN - #c.i.u.Alarm - Do not create alarm without coroutineScope: com.intellij.ui.jcef.JBCefOsrComponent.<init>(JBCefOsrComponent.java:52)
+2024-12-29 11:50:52,046 [   4589]   WARN - #c.i.u.Alarm - Do not create alarm without coroutineScope: com.intellij.ui.jcef.JBCefOsrComponent.<init>(JBCefOsrComponent.java:52)
+2024-12-29 11:50:52,053 [   4596]   WARN - #c.i.u.Alarm - Do not create alarm without coroutineScope: com.intellij.ui.jcef.JBCefOsrComponent.<init>(JBCefOsrComponent.java:52)
+2024-12-29 11:50:52,062 [   4605]   WARN - #c.i.u.Alarm - Do not create alarm without coroutineScope: com.intellij.ui.jcef.JBCefOsrComponent.<init>(JBCefOsrComponent.java:52)
+2024-12-29 11:50:52,112 [   4655]   WARN - #c.i.u.Alarm - Do not create alarm without coroutineScope: com.intellij.ui.jcef.JBCefOsrComponent.<init>(JBCefOsrComponent.java:52)
+2024-12-29 11:50:52,271 [   4814]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:started:File system synchronization
+2024-12-29 11:50:52,271 [   4814]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:finished:File system synchronization
+2024-12-29 11:50:52,274 [   4817]   INFO - #c.i.l.j.b.n.NpmScriptsService - Found package.json in C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/package.json
+2024-12-29 11:50:52,412 [   4955]   INFO - #c.i.u.j.JBCefApp - jcef version: 122.1.9.917.8fb0cb47101b266fe9cd86a4e5cb7ee603939239 | cmd args: [--disable-features=SpareRendererForSitePerProcess, --disable-gpu-process-crash-limit, --autoplay-policy=no-user-gesture-required, --disable-component-update]
+2024-12-29 11:50:52,440 [   4983]   INFO - #c.i.l.j.b.b.JsbtStartupActivity - Found [file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/package.json] for com.intellij.lang.javascript.buildTools.npm.NpmScriptsService
+2024-12-29 11:50:52,503 [   5046]   INFO - #c.i.v.l.d.VcsLogData - Vcs log index is turned off in the registry
+2024-12-29 11:50:52,528 [   5071]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.VcsLogBundle
+2024-12-29 11:50:52,630 [   5173]   INFO - #c.i.o.p.DumbServiceImpl - enter dumb mode [anything-llm]
+2024-12-29 11:50:52,684 [   5227]   INFO - #c.i.o.a.i.ActionUpdater - 385 ms to grab EDT for ToolWindowHeader$2#children@ToolwindowTitle (com.intellij.toolWindow.ToolWindowHeader$2)
+2024-12-29 11:50:52,723 [   5266]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2024-12-29 11:50:52,725 [   5268]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 6 in 8 ms: Add anything-llm/server/package.json
+2024-12-29 11:50:52,735 [   5278]   WARN - #c.i.u.Alarm - Do not create alarm without coroutineScope: com.intellij.ui.jcef.JBCefOsrComponent.<init>(JBCefOsrComponent.java:52)
+2024-12-29 11:50:52,799 [   5342]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:started:Updating indexes
+2024-12-29 11:50:52,800 [   5343]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@61a47508
+2024-12-29 11:50:52,889 [   5432]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Highlighting began with  
+and files README.md
+2024-12-29 11:50:52,917 [   5460]   INFO - #c.i.j.w.n.PackageJsonWebSymbolsRegistryManager - Notifying that Web Symbol context may have changed due to changes in loaded Web Types from package.jsons.
+2024-12-29 11:50:53,156 [   5699]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2024-12-29 11:50:53,156 [   5699]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 7 in 7 ms: Add anything-llm/frontend/package.json
+2024-12-29 11:50:53,180 [   5723]   INFO - #c.i.j.w.n.PackageJsonWebSymbolsRegistryManager - Notifying that Web Symbol context may have changed due to changes in loaded Web Types from package.jsons.
+2024-12-29 11:50:53,208 [   5751]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2024-12-29 11:50:53,208 [   5751]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 8 in 3 ms: Add anything-llm/collector/package.json
+2024-12-29 11:50:53,220 [   5763]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2024-12-29 11:50:53,220 [   5763]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 9 in 2 ms: Add anything-llm/package.json
+2024-12-29 11:50:53,223 [   5766]   INFO - #c.i.j.w.n.PackageJsonWebSymbolsRegistryManager - Notifying that Web Symbol context may have changed due to changes in loaded Web Types from package.jsons.
+2024-12-29 11:50:53,233 [   5776]   INFO - #c.i.j.w.n.PackageJsonWebSymbolsRegistryManager - Notifying that Web Symbol context may have changed due to changes in loaded Web Types from package.jsons.
+2024-12-29 11:50:53,271 [   5814]   INFO - #c.i.d.u.SqlDialects - SQL dialects initialized in 18 ms
+2024-12-29 11:50:53,293 [   5836]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file promo.png with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=408, fileInfo='promo.png(id=408)'}] and removers: []; 
+2024-12-29 11:50:53,297 [   5840]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file aws.png with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=414, fileInfo='aws.png(id=414)'}] and removers: []; 
+2024-12-29 11:50:53,297 [   5840]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file docker.png with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=415, fileInfo='docker.png(id=415)'}] and removers: []; 
+2024-12-29 11:50:53,299 [   5842]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file choices.png with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=406, fileInfo='choices.png(id=406)'}] and removers: []; 
+2024-12-29 11:50:53,300 [   5843]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file upload.png with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=423, fileInfo='upload.png(id=423)'}] and removers: []; 
+2024-12-29 11:50:53,301 [   5844]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file cf_outputs.png with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=421, fileInfo='cf_outputs.png(id=421)'}] and removers: []; 
+2024-12-29 11:50:53,301 [   5844]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file create_stack.png with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=424, fileInfo='create_stack.png(id=424)'}] and removers: []; 
+2024-12-29 11:50:53,301 [   5844]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file youtube.png with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=407, fileInfo='youtube.png(id=407)'}] and removers: []; 
+2024-12-29 11:50:53,303 [   5846]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file localai-setup.png with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=433, fileInfo='localai-setup.png(id=433)'}] and removers: []; 
+2024-12-29 11:50:53,303 [   5846]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file localai-embedding.png with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=432, fileInfo='localai-embedding.png(id=432)'}] and removers: []; 
+2024-12-29 11:50:53,559 [   6102]   WARN - #org.intellij.plugins.markdown.ui.preview.jcef.impl.JcefBrowserPipeImpl - No subscribers for documentReady!
+Attached data: 
+2024-12-29 11:50:53,843 [   6386]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon starting with 1 unfiltered editors: 512268490 class org.intellij.plugins.markdown.ui.preview.MarkdownEditorWithPreview {DUMB_AWARE=true, FILE_KEY=file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md}
+2024-12-29 11:50:53,844 [   6387]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon starting for 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md
+2024-12-29 11:50:54,224 [   6767]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.KeyMapBundle
+2024-12-29 11:50:54,391 [   6934]   INFO - #c.i.x.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/builds/WS-243.23654.44/lib/app.jar!/resources/html5-schema/html5.rnc
+2024-12-29 11:50:54,443 [   6986]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.RelaxngBundle
+2024-12-29 11:50:54,705 [   7248]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for anything-llm. Number of scanned files: 1160; number of files for indexing: 1078
+2024-12-29 11:50:54,705 [   7248]   INFO - #c.i.o.p.InitialVfsRefreshService - 263e60bc: marking roots for initial VFS refresh
+2024-12-29 11:50:54,706 [   7249]   INFO - #c.i.o.p.InitialVfsRefreshService - 263e60bc: starting initial VFS refresh of 1 roots
+2024-12-29 11:50:54,712 [   7255]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon canceled by the reason of 'Write action start', traceId = 43c60ec8-333e-42c6-8c86-b313b322ccde
+2024-12-29 11:50:54,713 [   7256]   INFO - #c.i.o.p.UnindexedFilesScannerExecutor - [263e60bc] Task finished: com.intellij.util.indexing.UnindexedFilesScannerExecutorImpl$ScheduledScanningTask@328ac16c
+2024-12-29 11:50:54,713 [   7256]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon cancelled with 1 unfiltered editors, traceId = 43c60ec8-333e-42c6-8c86-b313b322ccde
+2024-12-29 11:50:54,713 [   7256]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Editors to finish
+512268490 class org.intellij.plugins.markdown.ui.preview.MarkdownEditorWithPreview {DUMB_AWARE=true, FILE_KEY=file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md}
+2024-12-29 11:50:54,714 [   7257]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Creating invisible editor 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md
+2024-12-29 11:50:54,714 [   7257]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@61a47508
+2024-12-29 11:50:54,715 [   7258]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) UnindexedFilesIndexer[anything-llm, 0 files, reason: On refresh of files in anything-llm]
+2024-12-29 11:50:54,716 [   7259]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Registering daemon finished or cancelled for:
+  daemon cancelled for 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md,
+  shouldWaitForHighlighting = true,
+  shouldWaitForNextHighlighting = false,
+  traceId = 43c60ec8-333e-42c6-8c86-b313b322ccde
+2024-12-29 11:50:54,717 [   7260]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - File status map ; dirtyScopes: ( pass: 35 -> null; pass: 4 -> Whole file; pass: 14 -> null; pass: 13 -> null; pass: 8 -> Whole file; pass: 11 -> null; pass: 34 -> null; pass: 7 -> Whole file; pass: 16 -> null)
+2024-12-29 11:50:54,717 [   7260]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Highlighting still in progress: 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md,
+files 
+2024-12-29 11:50:54,739 [   7282]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 15 workers for indexing and 4 for writing indexes
+2024-12-29 11:50:54,759 [   7302]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of anything-llm : 643 to update, calculated in 17ms
+2024-12-29 11:50:54,774 [   7317]   INFO - #c.i.o.p.InitialVfsRefreshService - 263e60bc: initial VFS refresh finished in 66 ms
+2024-12-29 11:50:54,967 [   7510]   INFO - #c.i.l.t.t.TypeScriptCompilerEvaluationFacadeImpl - 'Use types from server' option for VueClassicTypeScriptService state: false
+2024-12-29 11:50:54,974 [   7517]   INFO - #c.i.l.t.t.TypeScriptCompilerEvaluationFacadeImpl - 'Use types from server' option for Angular2TypeScriptService state: false
+2024-12-29 11:50:54,974 [   7517]   INFO - #c.i.l.t.t.TypeScriptCompilerEvaluationFacadeImpl - 'Use types from server' option for TypeScriptServerServiceImpl state: false
+2024-12-29 11:50:55,055 [   7598]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon starting with 1 unfiltered editors: 512268490 class org.intellij.plugins.markdown.ui.preview.MarkdownEditorWithPreview {DUMB_AWARE=true, FILE_KEY=file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md}
+2024-12-29 11:50:55,056 [   7599]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon starting for 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md
+2024-12-29 11:50:55,818 [   8361]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.InspectionsBundle
+2024-12-29 11:50:56,775 [   9318]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:started:Loading remote specifications
+2024-12-29 11:50:56,803 [   9346]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:finished:Loading remote specifications
+2024-12-29 11:50:56,905 [   9448]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.GridCsvBundle
+2024-12-29 11:50:57,795 [  10338]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.XmlPsiBundle
+2024-12-29 11:50:57,879 [  10422]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 13 finished gracefully
+2024-12-29 11:50:57,879 [  10422]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 1 finished gracefully
+2024-12-29 11:50:57,882 [  10425]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 9 finished gracefully
+2024-12-29 11:50:57,882 [  10425]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 2 finished gracefully
+2024-12-29 11:50:57,884 [  10427]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 14 finished gracefully
+2024-12-29 11:50:57,884 [  10427]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 5 finished gracefully
+2024-12-29 11:50:57,884 [  10427]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 4 finished gracefully
+2024-12-29 11:50:57,886 [  10429]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 12 finished gracefully
+2024-12-29 11:50:57,891 [  10434]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 8 finished gracefully
+2024-12-29 11:50:57,903 [  10446]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 10 finished gracefully
+2024-12-29 11:50:57,932 [  10475]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 7 finished gracefully
+2024-12-29 11:50:57,951 [  10494]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 11 finished gracefully
+2024-12-29 11:50:57,953 [  10496]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 0 finished gracefully
+2024-12-29 11:50:57,954 [  10497]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 3 finished gracefully
+2024-12-29 11:50:57,991 [  10534]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 6 finished gracefully
+2024-12-29 11:50:58,057 [  10600]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for anything-llm. Unindexed files update took 3326ms; general responsiveness: 3/3 sluggish; EDT responsiveness: ok
+2024-12-29 11:50:58,060 [  10603]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) UnindexedFilesIndexer[anything-llm, 0 files, reason: On refresh of files in anything-llm]
+2024-12-29 11:50:58,061 [  10604]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) UnindexedFilesIndexer[anything-llm, 1078 files, reason: On project open]
+2024-12-29 11:50:58,062 [  10605]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 15 workers for indexing and 4 for writing indexes
+2024-12-29 11:50:58,067 [  10610]   INFO - #c.i.i.p.PluginManager - Using broken plugins file from IDE distribution
+2024-12-29 11:50:58,562 [  11105]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 3 finished gracefully
+2024-12-29 11:50:58,562 [  11105]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 11 finished gracefully
+2024-12-29 11:50:58,562 [  11105]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 9 finished gracefully
+2024-12-29 11:50:58,566 [  11109]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 4 finished gracefully
+2024-12-29 11:50:58,566 [  11109]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 6 finished gracefully
+2024-12-29 11:50:58,568 [  11111]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 1 finished gracefully
+2024-12-29 11:50:58,569 [  11112]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 7 finished gracefully
+2024-12-29 11:50:58,569 [  11112]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 0 finished gracefully
+2024-12-29 11:50:58,570 [  11113]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 14 finished gracefully
+2024-12-29 11:50:58,571 [  11114]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 2 finished gracefully
+2024-12-29 11:50:58,584 [  11127]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 8 finished gracefully
+2024-12-29 11:50:58,598 [  11141]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 5 finished gracefully
+2024-12-29 11:50:58,598 [  11141]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 13 finished gracefully
+2024-12-29 11:50:58,618 [  11161]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 12 finished gracefully
+2024-12-29 11:50:58,848 [  11391]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 10 finished gracefully
+2024-12-29 11:50:58,880 [  11423]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of anything-llm : 0 to update, calculated in 0ms
+2024-12-29 11:50:58,880 [  11423]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for anything-llm. Unindexed files update took 818ms; general responsiveness: ok; EDT responsiveness: ok
+2024-12-29 11:50:58,883 [  11426]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) UnindexedFilesIndexer[anything-llm, 1078 files, reason: On project open]
+2024-12-29 11:50:58,884 [  11427]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:finished:Updating indexes
+2024-12-29 11:50:58,891 [  11434]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon canceled by the reason of 'Write action start', traceId = 9c86b82c-c277-4d13-9d87-70b7e645fa89
+2024-12-29 11:50:58,891 [  11434]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon cancelled with 1 unfiltered editors, traceId = 9c86b82c-c277-4d13-9d87-70b7e645fa89
+2024-12-29 11:50:58,891 [  11434]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Editors to finish
+512268490 class org.intellij.plugins.markdown.ui.preview.MarkdownEditorWithPreview {DUMB_AWARE=true, FILE_KEY=file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md, file.level.intentions=[]}
+2024-12-29 11:50:58,893 [  11436]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Creating invisible editor 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md
+2024-12-29 11:50:58,893 [  11436]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Registering daemon finished or cancelled for:
+  daemon cancelled for 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md,
+  shouldWaitForHighlighting = true,
+  shouldWaitForNextHighlighting = false,
+  traceId = 9c86b82c-c277-4d13-9d87-70b7e645fa89
+2024-12-29 11:50:58,893 [  11436]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - File status map ; dirtyScopes: ( pass: 35 -> null; pass: 4 -> null; pass: 14 -> null; pass: 13 -> null; pass: 8 -> null; pass: 11 -> null; pass: 34 -> null; pass: 7 -> Whole file; pass: 16 -> null)
+2024-12-29 11:50:58,893 [  11436]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Highlighting still in progress: 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md,
+files 
+2024-12-29 11:50:58,911 [  11454]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [anything-llm]
+2024-12-29 11:50:58,912 [  11455]   INFO - #c.i.o.p.UnindexedFilesScannerExecutor - [263e60bc] Running task: com.intellij.util.indexing.UnindexedFilesScannerExecutorImpl$ScheduledScanningTask@492acef4
+2024-12-29 11:50:58,912 [  11455]   INFO - #c.i.u.i.UnindexedFilesScanner - [263e60bc], scanning stage: DelayedPushProperties
+2024-12-29 11:50:58,926 [  11469]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of anything-llm. Reason: changes in: "Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)"
+2024-12-29 11:50:58,926 [  11469]   INFO - #c.i.u.i.UnindexedFilesScanner - [263e60bc], scanning stage: CreatingIterators
+2024-12-29 11:50:58,926 [  11469]   INFO - #c.i.u.i.UnindexedFilesScanner - [263e60bc], scanning stage: CollectingIndexableFiles
+2024-12-29 11:50:58,926 [  11469]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of anything-llm uses 15 scanning threads
+2024-12-29 11:50:58,944 [  11487]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_functions.scss by request of indexes: [filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_functions.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=152, fileInfo='sass_functions.scss(id=152)'}] and removers: []; 
+2024-12-29 11:50:58,944 [  11487]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_color.scss by request of indexes: [filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_color.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=153, fileInfo='sass_color.scss(id=153)'}] and removers: []; 
+2024-12-29 11:50:58,945 [  11488]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_list.scss by request of indexes: [filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_list.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=154, fileInfo='sass_list.scss(id=154)'}] and removers: []; 
+2024-12-29 11:50:58,945 [  11488]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_map.scss by request of indexes: [filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_map.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=155, fileInfo='sass_map.scss(id=155)'}] and removers: []; 
+2024-12-29 11:50:58,945 [  11488]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_math.scss by request of indexes: [filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_math.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=169, fileInfo='sass_math.scss(id=169)'}] and removers: []; 
+2024-12-29 11:50:58,945 [  11488]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_meta.scss by request of indexes: [filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_meta.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=173, fileInfo='sass_meta.scss(id=173)'}] and removers: []; 
+2024-12-29 11:50:58,945 [  11488]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_selector.scss by request of indexes: [filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_selector.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=174, fileInfo='sass_selector.scss(id=174)'}] and removers: []; 
+2024-12-29 11:50:58,946 [  11489]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_string.scss by request of indexes: [filetypes->NOT_INDEXED,IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_string.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=175, fileInfo='sass_string.scss(id=175)'}] and removers: []; 
+2024-12-29 11:50:58,950 [  11493]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for anything-llm. Number of scanned files: 8; number of files for indexing: 8
+2024-12-29 11:50:58,951 [  11494]   INFO - #c.i.o.p.UnindexedFilesScannerExecutor - [263e60bc] Task finished: com.intellij.util.indexing.UnindexedFilesScannerExecutorImpl$ScheduledScanningTask@492acef4
+2024-12-29 11:50:58,952 [  11495]   INFO - #c.i.o.p.DumbServiceImpl - enter dumb mode [anything-llm]
+2024-12-29 11:50:58,961 [  11504]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:started:Updating indexes
+2024-12-29 11:50:58,962 [  11505]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) UnindexedFilesIndexer[anything-llm, 8 files, reason: changes in: "Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)"]
+2024-12-29 11:50:58,964 [  11507]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 15 workers for indexing and 4 for writing indexes
+2024-12-29 11:50:58,964 [  11507]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 8 finished gracefully
+2024-12-29 11:50:58,964 [  11507]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 10 finished gracefully
+2024-12-29 11:50:58,964 [  11507]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 14 finished gracefully
+2024-12-29 11:50:58,964 [  11507]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 9 finished gracefully
+2024-12-29 11:50:58,964 [  11507]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 12 finished gracefully
+2024-12-29 11:50:58,964 [  11507]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 13 finished gracefully
+2024-12-29 11:50:58,964 [  11507]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 11 finished gracefully
+2024-12-29 11:50:59,010 [  11553]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 1 finished gracefully
+2024-12-29 11:50:59,010 [  11553]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 6 finished gracefully
+2024-12-29 11:50:59,010 [  11553]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 4 finished gracefully
+2024-12-29 11:50:59,010 [  11553]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 2 finished gracefully
+2024-12-29 11:50:59,010 [  11553]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 5 finished gracefully
+2024-12-29 11:50:59,010 [  11553]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 0 finished gracefully
+2024-12-29 11:50:59,010 [  11553]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 7 finished gracefully
+2024-12-29 11:50:59,011 [  11554]   INFO - #c.i.u.i.c.IndexUpdateRunner - Coroutine 3 finished gracefully
+2024-12-29 11:50:59,050 [  11593]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of anything-llm : 0 to update, calculated in 0ms
+2024-12-29 11:50:59,050 [  11593]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for anything-llm. Unindexed files update took 86ms; general responsiveness: ok; EDT responsiveness: ok
+2024-12-29 11:50:59,057 [  11600]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) UnindexedFilesIndexer[anything-llm, 8 files, reason: changes in: "Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)"]
+2024-12-29 11:50:59,057 [  11600]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:finished:Updating indexes
+2024-12-29 11:50:59,058 [  11601]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [anything-llm]
+2024-12-29 11:50:59,092 [  11635]   INFO - #c.i.l.j.l.JSLinterGuesser - ESLint is enabled: 'eslint' is listed in package.json.
+2024-12-29 11:50:59,095 [  11638]   INFO - #c.i.l.j.l.JSLinterCodeStyleImporter - ESLint:Could not find the 'eslint' package
+2024-12-29 11:50:59,096 [  11639]   INFO - #c.i.l.j.l.JSLinterCodeStyleImporter - Postponing code style import from ESLint because required tool not installed
+2024-12-29 11:50:59,291 [  11834]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.SASSBundle
+2024-12-29 11:50:59,405 [  11948]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon starting with 1 unfiltered editors: 512268490 class org.intellij.plugins.markdown.ui.preview.MarkdownEditorWithPreview {DUMB_AWARE=true, FILE_KEY=file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md, file.level.intentions=[]}
+2024-12-29 11:50:59,405 [  11948]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon starting for 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md
+2024-12-29 11:50:59,631 [  12174]   INFO - #c.j.p.CommandLogger - %include C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\system\exampleParametrizedTest.text
+2024-12-29 11:50:59,631 [  12174]   INFO - #c.j.p.CommandLogger - %include C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\system\exampleParametrizedTest.text
+2024-12-29 11:50:59,632 [  12175]   INFO - #c.j.p.CommandLogger - Finished OK 0 tests
+2024-12-29 11:50:59,632 [  12175]   INFO - PerformancePlugin - Execution of the script has been finished successfully
+2024-12-29 11:50:59,836 [  12379]   INFO - #c.i.DynamicBundle - Cleanup bundle cache for messages.Angular2Bundle
+2024-12-29 11:51:00,688 [  13231]   INFO - #c.i.p.i.d.s.IdeStartUpPerformanceService - startup phase completed: editor highlighted
+2024-12-29 11:51:00,688 [  13231]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon finished, traceId = bf96ff6b-c3e2-4e58-a0eb-37761d88a26e
+2024-12-29 11:51:00,688 [  13231]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon stopped with 1 unfiltered editors, traceId = bf96ff6b-c3e2-4e58-a0eb-37761d88a26e
+2024-12-29 11:51:00,688 [  13231]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Editors to finish
+512268490 class org.intellij.plugins.markdown.ui.preview.MarkdownEditorWithPreview {DUMB_AWARE=true, FILE_KEY=file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md, file.level.intentions=[]}
+2024-12-29 11:51:00,688 [  13231]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Creating invisible editor 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md
+2024-12-29 11:51:00,688 [  13231]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Registering daemon finished or cancelled for:
+  daemon stopped for 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md,
+  shouldWaitForHighlighting = false,
+  shouldWaitForNextHighlighting = false,
+  traceId = bf96ff6b-c3e2-4e58-a0eb-37761d88a26e
+2024-12-29 11:51:00,688 [  13231]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Total highlighting time is : 1283 ms for 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md
+2024-12-29 11:51:00,688 [  13231]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - 
+          Highlighting done,
+          Total opening time is : 13339
+         
+2024-12-29 11:51:04,041 [  16584]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon starting with 1 unfiltered editors: 512268490 class org.intellij.plugins.markdown.ui.preview.MarkdownEditorWithPreview {DUMB_AWARE=true, FILE_KEY=file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md, file.level.intentions=[]}
+2024-12-29 11:51:04,041 [  16584]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon starting for 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md
+2024-12-29 11:51:04,041 [  16584]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Highlighting began with 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md 
+and files 
+2024-12-29 11:51:04,049 [  16592]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon finished, traceId = 3ca0ab13-7103-4378-9b98-a255f6b63cb5
+2024-12-29 11:51:04,049 [  16592]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon stopped with 1 unfiltered editors, traceId = 3ca0ab13-7103-4378-9b98-a255f6b63cb5
+2024-12-29 11:51:04,049 [  16592]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Editors to finish
+512268490 class org.intellij.plugins.markdown.ui.preview.MarkdownEditorWithPreview {DUMB_AWARE=true, FILE_KEY=file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md, file.level.intentions=[]}
+2024-12-29 11:51:04,049 [  16592]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Creating invisible editor 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md
+2024-12-29 11:51:04,049 [  16592]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Registering daemon finished or cancelled for:
+  daemon stopped for 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md,
+  shouldWaitForHighlighting = false,
+  shouldWaitForNextHighlighting = false,
+  traceId = 3ca0ab13-7103-4378-9b98-a255f6b63cb5
+2024-12-29 11:51:04,050 [  16593]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Total highlighting time is : 8 ms for 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md
+2024-12-29 11:51:04,050 [  16593]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - 
+          Highlighting done,
+          Total opening time is : 16700
+         
+2024-12-29 11:51:10,199 [  22742]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon starting with 1 unfiltered editors: 512268490 class org.intellij.plugins.markdown.ui.preview.MarkdownEditorWithPreview {DUMB_AWARE=true, FILE_KEY=file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md, file.level.intentions=[], CACHED_CARET_MARKER_KEY=RangeMarker(0,0) 164}
+2024-12-29 11:51:10,199 [  22742]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon starting for 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md
+2024-12-29 11:51:10,200 [  22743]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Highlighting began with 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md 
+and files 
+2024-12-29 11:51:10,271 [  22814]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon finished, traceId = 3bde091b-938f-4db5-980b-5867b6593c77
+2024-12-29 11:51:10,271 [  22814]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Daemon stopped with 1 unfiltered editors, traceId = 3bde091b-938f-4db5-980b-5867b6593c77
+2024-12-29 11:51:10,271 [  22814]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Editors to finish
+512268490 class org.intellij.plugins.markdown.ui.preview.MarkdownEditorWithPreview {DUMB_AWARE=true, FILE_KEY=file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md, file.level.intentions=[], CACHED_CARET_MARKER_KEY=RangeMarker(0,0) 164}
+2024-12-29 11:51:10,272 [  22815]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Creating invisible editor 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md
+2024-12-29 11:51:10,272 [  22815]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Registering daemon finished or cancelled for:
+  daemon stopped for 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md,
+  shouldWaitForHighlighting = false,
+  shouldWaitForNextHighlighting = false,
+  traceId = 3bde091b-938f-4db5-980b-5867b6593c77
+2024-12-29 11:51:10,272 [  22815]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Total highlighting time is : 72 ms for 1898065116 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/README.md
+2024-12-29 11:51:10,272 [  22815]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - 
+          Highlighting done,
+          Total opening time is : 22922
+         
+2024-12-29 11:51:25,577 [  38120]   INFO - #c.j.p.c.TakeScreenshotCommand - Screenshot saved: C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\log\screenshots\driverError\full_screen.png
+2024-12-29 11:51:26,078 [  38621]   INFO - #o.j.p.t.LocalTerminalDirectRunner - Started com.pty4j.windows.conpty.WinConPtyProcess in 25 ms from [powershell.exe, -NoExit, -ExecutionPolicy, Bypass, -File, C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\cache\builds\WS-243.23654.44\plugins\terminal\shell-integrations\powershell\powershell-integration.ps1] in C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\cache\projects\unpacked\anything-llm, [columns=161, rows=12], diff_envs={JETBRAINS_INTELLIJ_COMMAND_END_MARKER=mIZIINg1weyWg5NUuUHbbqM2s9x3Djc1hmissKHyeeAVjO7BR1kAfLgjCcJuTGcB, Path=C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin;C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git LFS;C:\butler;C:\Program Files\Git\cmd;C:\Users\thund\AppData\Local\Microsoft\WindowsApps;C:\Users\thund\.dotnet\tools;C:\Users\thund\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin;;C:\Program Files\JetBrains\JetBrains Rider 2024.2.7\bin;;;C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\cache\projects\unpacked\anything-llm\node_modules\.bin, TERMINAL_EMULATOR=JetBrains-JediTerm, TERM_SESSION_ID=c22467b8-579c-44c9-8fcd-d8cb7f06974b}
+2024-12-29 11:51:26,080 [  38623]   INFO - #o.j.p.t.AbstractTerminalRunner - Terminal started with com.jetbrains.rdserver.terminal.BackendTtyConnector (com.pty4j.windows.conpty.WinConPtyProcess), time to UI laid out: 92 ms, time to process created: 132 ms
+2024-12-29 11:51:26,267 [  38810]   INFO - #c.j.r.p.c.CodeWithMeCleanup - running activity to cleanup old thin clients... Root path is 'C:\Users\thund\AppData\Local\JetBrains'. JvmStartTimeMs=1735469446976
+2024-12-29 11:51:26,267 [  38810]   INFO - #c.j.r.p.c.CodeWithMeCleanup - found 0 Code With Me client system folders to check
+2024-12-29 11:51:26,268 [  38811]   INFO - #c.j.r.p.c.CodeWithMeCleanup - found 0 Code With Me client config folders to check
+2024-12-29 11:51:26,268 [  38811]   INFO - #c.j.r.p.c.CodeWithMeCleanup - keep only [] major versions
+2024-12-29 11:51:26,268 [  38811]   INFO - #c.j.r.p.c.CodeWithMeCleanup - Starting the logs folder cleanup. Path: C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\log
+2024-12-29 11:51:26,269 [  38812]   INFO - #c.i.r.OsRegistryConfigProvider - Looking for 'versionManagementEnabled' value in [HKLM_64\SOFTWARE\JetBrains\JetBrainsClient\versionManagementEnabled, HKLM_32\SOFTWARE\JetBrains\JetBrainsClient\versionManagementEnabled, HKCU_64\SOFTWARE\JetBrains\JetBrainsClient\versionManagementEnabled, HKCU_32\SOFTWARE\JetBrains\JetBrainsClient\versionManagementEnabled]
+2024-12-29 11:51:26,270 [  38813]   INFO - #c.i.r.OsRegistryConfigProvider - OS provided value for 'versionManagementEnabled' is not found
+2024-12-29 11:51:26,296 [  38839]   INFO - #c.j.p.c.TakeScreenshotCommand - Screenshot saved: C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\log\screenshots\beforeIdeClosed\full_screen.png
+2024-12-29 11:51:26,299 [  38842]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'i18n.locale' has changed to ''
+2024-12-29 11:51:26,304 [  38847]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2024-12-29 11:51:26,305 [  38848]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2024-12-29 11:51:26,389 [  38932]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2024-12-29 11:51:26,543 [  39086]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:started:File system synchronization
+2024-12-29 11:51:26,559 [  39102]   INFO - #c.i.o.p.DumbServiceImpl - enter dumb mode [anything-llm]
+2024-12-29 11:51:26,569 [  39112]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:finished:File system synchronization
+2024-12-29 11:51:26,577 [  39120]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:started:Updating indexes
+2024-12-29 11:51:26,578 [  39121]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@643f613a (reason: Push on VFS changes)
+2024-12-29 11:51:26,615 [  39158]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@643f613a (reason: Push on VFS changes)
+2024-12-29 11:51:26,615 [  39158]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:finished:Updating indexes
+2024-12-29 11:51:26,620 [  39163]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:started:File system synchronization
+2024-12-29 11:51:26,625 [  39168]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:finished:File system synchronization
+2024-12-29 11:51:26,626 [  39169]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [anything-llm]
+2024-12-29 11:51:26,690 [  39233]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Saving Project code style
+2024-12-29 11:51:26,694 [  39237]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Project code style saved
+2024-12-29 11:51:26,762 [  39305]   INFO - #c.i.c.ComponentStoreImpl - Saving Project(name=anything-llm, containerState=COMPONENT_CREATED, componentStore=C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\cache\projects\unpacked\anything-llm)ExternalProjectsManager took 24 ms, FileEditorManager took 23 ms, RunManager took 42 ms
+2024-12-29 11:51:26,828 [  39371]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:started:File system synchronization
+2024-12-29 11:51:26,830 [  39373]   INFO - #c.i.o.p.DumbServiceImpl - enter dumb mode [anything-llm]
+2024-12-29 11:51:26,836 [  39379]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:finished:File system synchronization
+2024-12-29 11:51:26,844 [  39387]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:started:Updating indexes
+2024-12-29 11:51:26,844 [  39387]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@4ccfcc70 (reason: Push on VFS changes)
+2024-12-29 11:51:26,876 [  39419]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@4ccfcc70 (reason: Push on VFS changes)
+2024-12-29 11:51:26,876 [  39419]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:finished:Updating indexes
+2024-12-29 11:51:26,881 [  39424]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [anything-llm]
+2024-12-29 11:51:26,918 [  39461]   WARN - #git4idea.repo.GitSubmodule - Submodule not registered as a repository: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/browser-extension
+2024-12-29 11:51:26,920 [  39463]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:started:File system synchronization
+2024-12-29 11:51:26,922 [  39465]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:finished:File system synchronization
+2024-12-29 11:51:26,923 [  39466]   WARN - #git4idea.repo.GitSubmodule - Submodule not registered as a repository: file://C:/Users/thund/IdeaProjects/jetbrains-ide-framework/out/ide-tests/cache/projects/unpacked/anything-llm/embed
+2024-12-29 11:51:26,951 [  39494]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:started:File system synchronization
+2024-12-29 11:51:26,959 [  39502]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:finished:File system synchronization
+2024-12-29 11:51:27,005 [  39548]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:started:Closing attached shared indexes…
+2024-12-29 11:51:27,017 [  39560]   INFO - #c.i.o.p.i.CoreProgressManager - Progress indicator:finished:Closing attached shared indexes…
+2024-12-29 11:51:27,023 [  39566]   INFO - #c.i.u.i.PersistentDirtyFilesQueue - Dirty file ids stored. Size: 0. Index: 0 Path: C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\system\index\dirty-file-queues\263e60bc
+2024-12-29 11:51:27,061 [  39604]   INFO - STDERR - Exception "java.lang.ClassNotFoundException: org/jetbrains/kotlin/idea/codeInsight/BasicKotlinReferenceTransferableData"while constructing DataFlavor for: application/x-java-jvm-local-objectref; class=org.jetbrains.kotlin.idea.codeInsight.BasicKotlinReferenceTransferableData
+2024-12-29 11:51:27,061 [  39604]   INFO - STDERR - Exception "java.lang.ClassNotFoundException: org/jetbrains/kotlin/idea/codeInsight/BasicKotlinReferenceTransferableData"while constructing DataFlavor for: application/x-java-jvm-local-objectref; class=org.jetbrains.kotlin.idea.codeInsight.BasicKotlinReferenceTransferableData
+2024-12-29 11:51:27,105 [  39648]   INFO - #c.i.u.i.c.ManagedPersistentCache - closing graved-parameter-hints-anything-llm-263e60bc with 1 elements
+2024-12-29 11:51:27,105 [  39648]   INFO - #c.i.u.i.c.ManagedPersistentCache - closing graved-doc-render-anything-llm-263e60bc with 1 elements
+2024-12-29 11:51:27,105 [  39648]   INFO - #c.i.u.i.c.ManagedPersistentCache - closing graved-code-vision-anything-llm-263e60bc with 1 elements
+2024-12-29 11:51:27,105 [  39648]   INFO - #c.i.u.i.c.ManagedPersistentCache - closing graved-declarative-hints-anything-llm-263e60bc with 1 elements
+2024-12-29 11:51:27,105 [  39648]   INFO - #c.i.u.i.c.ManagedPersistentCache - closing graved-highlighting-anything-llm-263e60bc with 1 elements
+2024-12-29 11:51:27,105 [  39648]   INFO - #c.i.u.i.c.ManagedPersistentCache - closing graved-code-folding-anything-llm-263e60bc with 1 elements
+2024-12-29 11:51:27,133 [  39676]   INFO - #c.i.c.p.f.FollowMeManager - Unregister user (name: 'thund', clientId: Host)
+2024-12-29 11:51:27,135 [  39678]   INFO - #c.i.p.p.ProjectEntitiesStorage - Project ProjectId(id=1hndijkat1l92urp25mg) is disposed, removing entity
+2024-12-29 11:51:27,141 [  39684]   INFO - #c.i.o.w.i.WindowManagerImpl - === Release(true) frame on closed project ===
+2024-12-29 11:51:27,176 [  39719]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Watcher terminated with exit code 0
+2024-12-29 11:51:27,199 [  39742]   INFO - #fleet.kernel.Transactor - shutting down kernel Kernel(3lpq80ja8rnank337udp)
+2024-12-29 11:51:27,436 [  39979]   INFO - #o.j.i.BuiltInServer - web server stopped
+2024-12-29 11:51:27,441 [  39984]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\system\index\rep.names
+2024-12-29 11:51:27,441 [  39984]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\system\index\rep.names
+2024-12-29 11:51:27,442 [  39985]   INFO - #c.i.d.JVMResponsivenessMonitor - Sampling thread interrupted -> stop sampling
+2024-12-29 11:51:27,442 [  39985]   INFO - #c.i.d.JVMResponsivenessMonitor - Sampling thread exiting normally
+2024-12-29 11:51:27,442 [  39985]   INFO - #c.i.o.f.i.FileTypeDetectionService - 19 auto-detected files. Detection took 76 ms
+2024-12-29 11:51:27,443 [  39986]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2024-12-29 11:51:27,444 [  39987]   INFO - #c.i.u.i.PersistentDirtyFilesQueue - Dirty file ids stored. Size: 8. Index: 8 Path: C:\Users\thund\IdeaProjects\jetbrains-ide-framework\out\ide-tests\tests\WS-243.23654.44\exampleParametrizedTest\system\index\dirty-file-ids
+2024-12-29 11:51:27,494 [  40037]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2024-12-29 11:51:27,495 [  40038]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 52ms.
+2024-12-29 11:51:27,620 [  40163]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2024-12-29 11:51:27,620 [  40163]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS closing
+2024-12-29 11:51:27,622 [  40165]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 2 ms.
+2024-12-29 11:51:27,744 [  40287]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------
